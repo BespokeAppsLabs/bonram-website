@@ -1,0 +1,64 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { getServiceBySlug } from "@/lib/data/services";
+import { accreditations } from "@/lib/data/accreditations";
+import ServiceHero from "@/components/services/ServiceHero";
+import ServiceCTA from "@/components/services/ServiceCTA";
+import SectionHeader from "@/components/ui/SectionHeader";
+import AccreditationCard from "@/components/accreditations/AccreditationCard";
+import { CheckCircle } from "lucide-react";
+
+const slug = "sanitation-waste";
+
+export const metadata: Metadata = {
+  title: "Sanitation & Waste Management",
+  description: "Mobile VIP toilets, ablution facilities, and waste management services for construction sites, events, and government projects.",
+};
+
+export default function SanitationWastePage() {
+  const service = getServiceBySlug(slug);
+  if (!service) notFound();
+  const serviceAccreds = accreditations.filter((a) => service.accreditations.includes(a.slug));
+
+  return (
+    <>
+      <ServiceHero service={service} />
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <div className="lg:col-span-2">
+              <p className="text-xs font-bold uppercase tracking-widest text-gold mb-3">Overview</p>
+              <h2 className="text-2xl font-bold text-navy mb-5">What We Deliver</h2>
+              <p className="text-slate leading-relaxed mb-8">{service.description}</p>
+              <div className="space-y-3">
+                {service.bullets.map((bullet) => (
+                  <div key={bullet} className="flex items-start gap-3">
+                    <CheckCircle size={18} className="text-gold mt-0.5 flex-shrink-0" />
+                    <p className="text-charcoal text-sm">{bullet}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div>
+              <SectionHeader eyebrow="Accreditations" heading="Relevant Certifications" align="left" className="mb-6" />
+              <div className="space-y-4">
+                {serviceAccreds.map((acc) => (
+                  <AccreditationCard key={acc.slug} accreditation={acc} />
+                ))}
+              </div>
+              <div className="mt-6 bg-mist rounded-lg border border-border p-5">
+                <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Key Clients</p>
+                <ul className="space-y-1">
+                  {service.featuredClients.map((c) => (
+                    <li key={c} className="text-sm text-slate">{c}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <ServiceCTA serviceName={service.name} />
+    </>
+  );
+}

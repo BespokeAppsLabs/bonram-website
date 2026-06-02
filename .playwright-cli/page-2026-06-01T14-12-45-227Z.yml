@@ -1,0 +1,189 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Bonram (Pty) Ltd" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Bonram (Pty) Ltd" [ref=e6]
+      - navigation [ref=e7]:
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e9] [cursor=pointer]:
+          - /url: /services
+        - link "Clients" [ref=e10] [cursor=pointer]:
+          - /url: /clients
+        - link "Accreditations" [ref=e11] [cursor=pointer]:
+          - /url: /accreditations
+      - generic [ref=e12]:
+        - link "+27 74 274 8684" [ref=e13] [cursor=pointer]:
+          - /url: tel:+27742748684
+        - link "Get a Quote" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - img "Bonram Accreditations" [ref=e17]
+      - generic [ref=e19]:
+        - paragraph [ref=e20]: Compliance
+        - heading "Accreditations" [level=1] [ref=e21]
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - img [ref=e26]
+        - generic [ref=e29]:
+          - paragraph [ref=e30]: BBBEE Level 1 Contributor
+          - paragraph [ref=e31]: "Maximum procurement recognition — Reg: 2013/013325/07"
+      - generic [ref=e32]:
+        - paragraph [ref=e33]: CSD Supplier Number
+        - paragraph [ref=e34]: MAAA0156166
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - paragraph [ref=e38]: 11 Accreditations
+        - heading "Fully Accredited Across All Divisions" [level=2] [ref=e39]
+        - paragraph [ref=e40]: Every accreditation we hold translates directly to client confidence and compliance readiness — whether for government procurement or corporate contract requirements.
+      - generic [ref=e41]:
+        - generic [ref=e43]:
+          - img [ref=e45]
+          - generic [ref=e48]:
+            - heading "NHBRC" [level=3] [ref=e49]
+            - paragraph [ref=e50]: "4000004592"
+            - paragraph [ref=e51]: National Home Builders Registration Council. Accreditation confirms compliance with housing construction standards and protects clients in residential and commercial building projects.
+        - generic [ref=e53]:
+          - img [ref=e55]
+          - generic [ref=e58]:
+            - heading "CIDB" [level=3] [ref=e59]
+            - paragraph [ref=e60]: CSR 10014817 | GBPE1 · MEPE1 · CE1
+            - paragraph [ref=e61]: Construction Industry Development Board. Required for all government construction tenders. Our grades cover general building, mechanical engineering, and civil engineering works.
+        - generic [ref=e63]:
+          - img [ref=e65]
+          - generic [ref=e68]:
+            - heading "PSIRA" [level=3] [ref=e69]
+            - paragraph [ref=e70]: "4845472"
+            - paragraph [ref=e71]: Private Security Industry Regulatory Authority. Compliance ensures our safety solutions and security-related services meet South African regulatory requirements.
+        - generic [ref=e73]:
+          - img [ref=e75]
+          - generic [ref=e78]:
+            - heading "QCTO" [level=3] [ref=e79]
+            - paragraph [ref=e80]: Verification Client
+            - paragraph [ref=e81]: Quality Council for Trades and Occupations. Confirms our commitment to skills development, training standards, and workforce qualifications across all service divisions.
+        - generic [ref=e83]:
+          - img [ref=e85]
+          - generic [ref=e88]:
+            - heading "BEECA Cleaning Association" [level=3] [ref=e89]
+            - paragraph [ref=e90]: Built Environment and Emerging Contractors Association — Cleaning sector. Membership certifies compliance with professional cleaning industry standards and best practices.
+        - generic [ref=e92]:
+          - img [ref=e94]
+          - generic [ref=e97]:
+            - heading "SAIOSH" [level=3] [ref=e98]
+            - paragraph [ref=e99]: South African Institute of Occupational Safety and Health. Affirms our commitment to workplace health and safety management across construction, facilities, and plant hire operations.
+        - generic [ref=e101]:
+          - img [ref=e103]
+          - generic [ref=e106]:
+            - heading "SARS Imports & Exports" [level=3] [ref=e107]
+            - paragraph [ref=e108]: South African Revenue Service Customs registration. Authorises Bonram to conduct international trade, cross-border logistics, and dangerous goods transportation legally.
+        - generic [ref=e110]:
+          - img [ref=e112]
+          - generic [ref=e115]:
+            - heading "AVERDA" [level=3] [ref=e116]
+            - paragraph [ref=e117]: Leading waste management standards body. Our alignment with AVERDA protocols ensures responsible waste collection, transportation, and disposal to registered, compliant sites.
+        - generic [ref=e119]:
+          - img [ref=e121]
+          - generic [ref=e124]:
+            - heading "LEDET" [level=3] [ref=e125]
+            - paragraph [ref=e126]: Limpopo Department of Economic Development, Environment and Tourism. Compliance confirms our environmental management practices meet provincial regulatory requirements for waste and sanitation.
+        - generic [ref=e128]:
+          - img [ref=e130]
+          - generic [ref=e133]:
+            - heading "AMPS-Africa" [level=3] [ref=e134]
+            - paragraph [ref=e135]: Africa Mobility and Passenger Services. Accreditation validates our passenger transport fleet, driver qualifications, and safety protocols for employee and community transportation.
+        - generic [ref=e137]:
+          - img [ref=e139]
+          - generic [ref=e142]:
+            - heading "VASA" [level=3] [ref=e143]
+            - paragraph [ref=e144]: Vending Association of South Africa. Membership supports our facilities management division in providing compliant vending, water dispenser, and hygiene solutions to clients.
+    - generic [ref=e147]:
+      - generic [ref=e148]:
+        - paragraph [ref=e149]: Company Profile
+        - heading "Download Our Full Profile" [level=3] [ref=e150]
+        - paragraph [ref=e151]: Includes registration documents, accreditation certificates, and project portfolio.
+      - link "Download Profile (PDF)" [ref=e152] [cursor=pointer]:
+        - /url: /documents/bonram-company-profile-2025.pdf
+        - img [ref=e153]
+        - text: Download Profile (PDF)
+    - generic [ref=e157]:
+      - paragraph [ref=e158]: Ready to Partner?
+      - heading "Let's Build Something Great Together" [level=2] [ref=e159]
+      - paragraph [ref=e160]: Whether you need a BBBEE Level 1 partner for your next tender, a facilities management team for your site, or heavy plant for your project — Bonram delivers.
+      - generic [ref=e161]:
+        - link "Get a Quote" [ref=e162] [cursor=pointer]:
+          - /url: /contact
+          - text: Get a Quote
+          - img [ref=e163]
+        - link "Call Us Now" [ref=e165] [cursor=pointer]:
+          - /url: tel:+27742748684
+          - img [ref=e166]
+          - text: Call Us Now
+      - paragraph [ref=e168]: "Head Office: Lephalale, Limpopo | info@bonram.co.za | +27 74 274 8684"
+  - contentinfo [ref=e169]:
+    - generic [ref=e170]:
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - img "Bonram (Pty) Ltd" [ref=e173]
+          - paragraph [ref=e174]: BBBEE Level 1 multi-service B2B company delivering excellence across South Africa since 2013.
+          - generic [ref=e176]: BBBEE Level 1
+        - generic [ref=e177]:
+          - heading "Services" [level=3] [ref=e178]
+          - list [ref=e179]:
+            - listitem [ref=e180]:
+              - link "Building & Construction" [ref=e181] [cursor=pointer]:
+                - /url: /services/building-construction
+            - listitem [ref=e182]:
+              - link "Facilities Management" [ref=e183] [cursor=pointer]:
+                - /url: /services/facilities-management
+            - listitem [ref=e184]:
+              - link "Logistics & Transport" [ref=e185] [cursor=pointer]:
+                - /url: /services/logistics-transport
+            - listitem [ref=e186]:
+              - link "Sanitation & Waste" [ref=e187] [cursor=pointer]:
+                - /url: /services/sanitation-waste
+            - listitem [ref=e188]:
+              - link "Safety Solutions" [ref=e189] [cursor=pointer]:
+                - /url: /services/safety-solutions
+            - listitem [ref=e190]:
+              - link "Plant & Tool Hire" [ref=e191] [cursor=pointer]:
+                - /url: /services/plant-tool-hire
+        - generic [ref=e192]:
+          - heading "Company" [level=3] [ref=e193]
+          - list [ref=e194]:
+            - listitem [ref=e195]:
+              - link "About Us" [ref=e196] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e197]:
+              - link "Our Clients" [ref=e198] [cursor=pointer]:
+                - /url: /clients
+            - listitem [ref=e199]:
+              - link "Accreditations" [ref=e200] [cursor=pointer]:
+                - /url: /accreditations
+            - listitem [ref=e201]:
+              - link "Contact" [ref=e202] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e203]:
+          - heading "Contact" [level=3] [ref=e204]
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - link "+27 74 274 8684" [ref=e207] [cursor=pointer]:
+                - /url: tel:+27742748684
+                - img [ref=e208]
+                - text: +27 74 274 8684
+            - listitem [ref=e210]:
+              - link "info@bonram.co.za" [ref=e211] [cursor=pointer]:
+                - /url: mailto:info@bonram.co.za
+                - img [ref=e212]
+                - text: info@bonram.co.za
+            - listitem [ref=e215]:
+              - generic [ref=e216]:
+                - img [ref=e217]
+                - generic [ref=e220]: 06 Geelhaak Street, Onverwacht, Lephalale 0557, Limpopo
+      - generic [ref=e221]:
+        - paragraph [ref=e222]: "© 2026 Bonram (Pty) Ltd. All rights reserved. Reg: 2013/013325/07 | VAT: 4040296859"
+        - paragraph [ref=e223]: "CSD Supplier: MAAA0156166"
+  - button "Open Next.js Dev Tools" [ref=e229] [cursor=pointer]:
+    - img [ref=e230]
+  - alert [ref=e233]

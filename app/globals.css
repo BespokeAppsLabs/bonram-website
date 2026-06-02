@@ -1,26 +1,50 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-navy:        #1A2E4A;
+  --color-navy-dark:   #0F1E33;
+  --color-navy-light:  #2A4A72;
+  --color-gold:        #D4A017;
+  --color-gold-light:  #F0C040;
+  --color-gold-muted:  #A87D10;
+  --color-charcoal:    #1C1C1C;
+  --color-slate:       #4A5568;
+  --color-mist:        #F4F6F9;
+  --color-white:       #FFFFFF;
+  --color-border:      #E2E8F0;
+  --font-sans:         var(--font-inter);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-charcoal);
+  background: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes mesh-drift {
+  0%, 100% { background-position: 0% 0%, 100% 100%, 50% 50%; }
+  33%       { background-position: 30% 70%, 70% 30%, 20% 80%; }
+  66%       { background-position: 70% 20%, 20% 80%, 80% 20%; }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.hero-mesh {
+  background-image:
+    radial-gradient(ellipse at 15% 85%, rgba(26, 46, 74, 0.7) 0%, transparent 55%),
+    radial-gradient(ellipse at 85% 15%, rgba(15, 30, 51, 0.6) 0%, transparent 55%),
+    radial-gradient(ellipse at 50% 50%, rgba(212, 160, 23, 0.04) 0%, transparent 65%);
+  animation: mesh-drift 14s ease-in-out infinite;
+}
+
+.marquee-track {
+  animation: marquee 35s linear infinite;
+}
+
+.marquee-container:hover .marquee-track {
+  animation-play-state: paused;
 }

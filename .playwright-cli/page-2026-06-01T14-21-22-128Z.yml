@@ -1,0 +1,182 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Bonram (Pty) Ltd" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Bonram (Pty) Ltd" [ref=e6]
+      - navigation [ref=e7]:
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e9] [cursor=pointer]:
+          - /url: /services
+        - link "Clients" [ref=e10] [cursor=pointer]:
+          - /url: /clients
+        - link "Accreditations" [ref=e11] [cursor=pointer]:
+          - /url: /accreditations
+      - generic [ref=e12]:
+        - link "+27 74 274 8684" [ref=e13] [cursor=pointer]:
+          - /url: tel:+27742748684
+        - link "Get a Quote" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - img "Bonram Services" [ref=e17]
+      - generic [ref=e19]:
+        - paragraph [ref=e20]: What We Do
+        - heading "Our Services" [level=1] [ref=e21]
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - paragraph [ref=e25]: Six Divisions
+        - heading "End-to-End B2B Service Delivery" [level=2] [ref=e26]
+        - paragraph [ref=e27]: Whether you need civil works, industrial cleaning, heavy plant, or cross-border logistics — Bonram has the accreditations, equipment, and experience to deliver.
+      - generic [ref=e28]:
+        - link "Building & Construction Civil engineering, roads, solar systems, and structural construction across South Africa. Learn more" [ref=e29] [cursor=pointer]:
+          - /url: /services/building-construction
+          - generic [ref=e30]:
+            - img [ref=e32]
+            - heading "Building & Construction" [level=3] [ref=e37]
+            - paragraph [ref=e38]: Civil engineering, roads, solar systems, and structural construction across South Africa.
+          - generic [ref=e40]:
+            - text: Learn more
+            - img [ref=e41]
+        - link "Facilities Management Corporate and industrial cleaning, hygiene services, pest control, and building maintenance. Learn more" [ref=e43] [cursor=pointer]:
+          - /url: /services/facilities-management
+          - generic [ref=e44]:
+            - img [ref=e46]
+            - heading "Facilities Management" [level=3] [ref=e49]
+            - paragraph [ref=e50]: Corporate and industrial cleaning, hygiene services, pest control, and building maintenance.
+          - generic [ref=e52]:
+            - text: Learn more
+            - img [ref=e53]
+        - link "Logistics & Transport Goods and passenger transport, dangerous goods handling, and import/export clearing. Learn more" [ref=e55] [cursor=pointer]:
+          - /url: /services/logistics-transport
+          - generic [ref=e56]:
+            - img [ref=e58]
+            - heading "Logistics & Transport" [level=3] [ref=e63]
+            - paragraph [ref=e64]: Goods and passenger transport, dangerous goods handling, and import/export clearing.
+          - generic [ref=e66]:
+            - text: Learn more
+            - img [ref=e67]
+        - link "Sanitation & Waste Management Mobile ablution facilities, waste collection, and onsite sanitation management. Learn more" [ref=e69] [cursor=pointer]:
+          - /url: /services/sanitation-waste
+          - generic [ref=e70]:
+            - img [ref=e72]
+            - heading "Sanitation & Waste Management" [level=3] [ref=e75]
+            - paragraph [ref=e76]: Mobile ablution facilities, waste collection, and onsite sanitation management.
+          - generic [ref=e78]:
+            - text: Learn more
+            - img [ref=e79]
+        - link "Safety Solutions PPE supply, safety signage, and equipment for construction, mining, roads, and warehouses. Learn more" [ref=e81] [cursor=pointer]:
+          - /url: /services/safety-solutions
+          - generic [ref=e82]:
+            - img [ref=e84]
+            - heading "Safety Solutions" [level=3] [ref=e87]
+            - paragraph [ref=e88]: PPE supply, safety signage, and equipment for construction, mining, roads, and warehouses.
+          - generic [ref=e90]:
+            - text: Learn more
+            - img [ref=e91]
+        - link "Equipment Hire Event, sanitation, and construction equipment hire — generators, plant, toilets, tents, and more. Learn more" [ref=e93] [cursor=pointer]:
+          - /url: /services/equipment-hire
+          - generic [ref=e94]:
+            - img [ref=e96]
+            - heading "Equipment Hire" [level=3] [ref=e98]
+            - paragraph [ref=e99]: Event, sanitation, and construction equipment hire — generators, plant, toilets, tents, and more.
+          - generic [ref=e101]:
+            - text: Learn more
+            - img [ref=e102]
+        - link "Events Management End-to-end event planning, logistics, equipment, and execution for government and corporate events. Learn more" [ref=e104] [cursor=pointer]:
+          - /url: /services/events-management
+          - generic [ref=e105]:
+            - img [ref=e107]
+            - heading "Events Management" [level=3] [ref=e109]
+            - paragraph [ref=e110]: End-to-end event planning, logistics, equipment, and execution for government and corporate events.
+          - generic [ref=e112]:
+            - text: Learn more
+            - img [ref=e113]
+        - link "Security Services PSIRA-registered security solutions for sites, events, and corporate facilities. Learn more" [ref=e115] [cursor=pointer]:
+          - /url: /services/security-services
+          - generic [ref=e116]:
+            - img [ref=e118]
+            - heading "Security Services" [level=3] [ref=e121]
+            - paragraph [ref=e122]: PSIRA-registered security solutions for sites, events, and corporate facilities.
+          - generic [ref=e124]:
+            - text: Learn more
+            - img [ref=e125]
+    - generic [ref=e128]:
+      - paragraph [ref=e129]: Ready to Partner?
+      - heading "Let's Build Something Great Together" [level=2] [ref=e130]
+      - paragraph [ref=e131]: Whether you need a BBBEE Level 1 partner for your next tender, a facilities management team for your site, or heavy plant for your project — Bonram delivers.
+      - generic [ref=e132]:
+        - link "Get a Quote" [ref=e133] [cursor=pointer]:
+          - /url: /contact
+          - text: Get a Quote
+          - img [ref=e134]
+        - link "Call Us Now" [ref=e136] [cursor=pointer]:
+          - /url: tel:+27742748684
+          - img [ref=e137]
+          - text: Call Us Now
+      - paragraph [ref=e139]: "Head Office: Lephalale, Limpopo | info@bonram.co.za | +27 74 274 8684"
+  - contentinfo [ref=e140]:
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - img "Bonram (Pty) Ltd" [ref=e144]
+          - paragraph [ref=e145]: BBBEE Level 1 multi-service B2B company delivering excellence across South Africa since 2013.
+          - generic [ref=e147]: BBBEE Level 1
+        - generic [ref=e148]:
+          - heading "Services" [level=3] [ref=e149]
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - link "Building & Construction" [ref=e152] [cursor=pointer]:
+                - /url: /services/building-construction
+            - listitem [ref=e153]:
+              - link "Facilities Management" [ref=e154] [cursor=pointer]:
+                - /url: /services/facilities-management
+            - listitem [ref=e155]:
+              - link "Logistics & Transport" [ref=e156] [cursor=pointer]:
+                - /url: /services/logistics-transport
+            - listitem [ref=e157]:
+              - link "Sanitation & Waste" [ref=e158] [cursor=pointer]:
+                - /url: /services/sanitation-waste
+            - listitem [ref=e159]:
+              - link "Safety Solutions" [ref=e160] [cursor=pointer]:
+                - /url: /services/safety-solutions
+            - listitem [ref=e161]:
+              - link "Plant & Tool Hire" [ref=e162] [cursor=pointer]:
+                - /url: /services/plant-tool-hire
+        - generic [ref=e163]:
+          - heading "Company" [level=3] [ref=e164]
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - link "About Us" [ref=e167] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e168]:
+              - link "Our Clients" [ref=e169] [cursor=pointer]:
+                - /url: /clients
+            - listitem [ref=e170]:
+              - link "Accreditations" [ref=e171] [cursor=pointer]:
+                - /url: /accreditations
+            - listitem [ref=e172]:
+              - link "Contact" [ref=e173] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e174]:
+          - heading "Contact" [level=3] [ref=e175]
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "+27 74 274 8684" [ref=e178] [cursor=pointer]:
+                - /url: tel:+27742748684
+                - img [ref=e179]
+                - text: +27 74 274 8684
+            - listitem [ref=e181]:
+              - link "info@bonram.co.za" [ref=e182] [cursor=pointer]:
+                - /url: mailto:info@bonram.co.za
+                - img [ref=e183]
+                - text: info@bonram.co.za
+            - listitem [ref=e186]:
+              - generic [ref=e187]:
+                - img [ref=e188]
+                - generic [ref=e191]: 06 Geelhaak Street, Onverwacht, Lephalale 0557, Limpopo
+      - generic [ref=e192]:
+        - paragraph [ref=e193]: "© 2026 Bonram (Pty) Ltd. All rights reserved. Reg: 2013/013325/07 | VAT: 4040296859"
+        - paragraph [ref=e194]: "CSD Supplier: MAAA0156166"
+  - alert [ref=e195]

@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Bonram (Pty) Ltd" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Bonram (Pty) Ltd" [ref=e6]
+      - navigation [ref=e7]:
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e9] [cursor=pointer]:
+          - /url: /services
+        - link "Clients" [ref=e10] [cursor=pointer]:
+          - /url: /clients
+        - link "Accreditations" [ref=e11] [cursor=pointer]:
+          - /url: /accreditations
+      - generic [ref=e12]:
+        - link "+27 74 274 8684" [ref=e13] [cursor=pointer]:
+          - /url: tel:+27742748684
+        - link "Get a Quote" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - img "Building & Construction" [ref=e17]
+      - generic [ref=e19]:
+        - navigation [ref=e20]:
+          - link "Home" [ref=e21] [cursor=pointer]:
+            - /url: /
+          - img [ref=e22]
+          - link "Services" [ref=e24] [cursor=pointer]:
+            - /url: /services
+          - img [ref=e25]
+          - generic [ref=e27]: Building & Construction
+        - heading "Building & Construction" [level=1] [ref=e28]
+        - paragraph [ref=e29]: Civil engineering, roads, solar systems, and structural construction across South Africa.
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - paragraph [ref=e34]: Overview
+        - heading "What We Deliver" [level=2] [ref=e35]
+        - paragraph [ref=e36]: Bonram's Building & Construction division delivers end-to-end civil and structural projects for government, mining, and corporate clients. From road construction and sanitation infrastructure to solar system installations and consulting engineering, our teams are accredited, experienced, and equipped to execute at scale.
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - img [ref=e39]
+            - paragraph [ref=e42]: Civil engineering — earthworks, foundations, drainage
+          - generic [ref=e43]:
+            - img [ref=e44]
+            - paragraph [ref=e47]: General building — residential and commercial structures
+          - generic [ref=e48]:
+            - img [ref=e49]
+            - paragraph [ref=e52]: Sanitation infrastructure — reticulation and ablution facilities
+          - generic [ref=e53]:
+            - img [ref=e54]
+            - paragraph [ref=e57]: Roads — construction, maintenance, and marking
+          - generic [ref=e58]:
+            - img [ref=e59]
+            - paragraph [ref=e62]: Solar systems — supply and installation (PV panels, inverters, battery backup)
+          - generic [ref=e63]:
+            - img [ref=e64]
+            - paragraph [ref=e67]: Steel carports and cantilever structures
+          - generic [ref=e68]:
+            - img [ref=e69]
+            - paragraph [ref=e72]: Consulting engineers — civil, electrical, and mechanical
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - paragraph [ref=e75]: Accreditations
+          - heading "Relevant Certifications" [level=2] [ref=e76]
+        - generic [ref=e77]:
+          - generic [ref=e79]:
+            - img [ref=e81]
+            - generic [ref=e84]:
+              - heading "NHBRC" [level=3] [ref=e85]
+              - paragraph [ref=e86]: "4000004592"
+              - paragraph [ref=e87]: National Home Builders Registration Council. Accreditation confirms compliance with housing construction standards and protects clients in residential and commercial building projects.
+          - generic [ref=e89]:
+            - img [ref=e91]
+            - generic [ref=e94]:
+              - heading "CIDB" [level=3] [ref=e95]
+              - paragraph [ref=e96]: CSR 10014817 | GBPE1 · MEPE1 · CE1
+              - paragraph [ref=e97]: Construction Industry Development Board. Required for all government construction tenders. Our grades cover general building, mechanical engineering, and civil engineering works.
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e104]:
+              - heading "SAIOSH" [level=3] [ref=e105]
+              - paragraph [ref=e106]: South African Institute of Occupational Safety and Health. Affirms our commitment to workplace health and safety management across construction, facilities, and plant hire operations.
+        - generic [ref=e107]:
+          - paragraph [ref=e108]: Key Clients
+          - list [ref=e109]:
+            - listitem [ref=e110]: Eskom
+            - listitem [ref=e111]: Enel Green Power
+            - listitem [ref=e112]: Lephalale Municipality
+    - generic [ref=e114]:
+      - paragraph [ref=e115]: Get Started
+      - heading "Need Building & Construction Services?" [level=2] [ref=e116]
+      - paragraph [ref=e117]: Contact our team for a tailored quote. We respond within 24 hours.
+      - link "Request a Quote" [ref=e118] [cursor=pointer]:
+        - /url: /contact
+        - text: Request a Quote
+        - img [ref=e119]
+  - contentinfo [ref=e121]:
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - img "Bonram (Pty) Ltd" [ref=e125]
+          - paragraph [ref=e126]: BBBEE Level 1 multi-service B2B company delivering excellence across South Africa since 2013.
+          - generic [ref=e128]: BBBEE Level 1
+        - generic [ref=e129]:
+          - heading "Services" [level=3] [ref=e130]
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "Building & Construction" [ref=e133] [cursor=pointer]:
+                - /url: /services/building-construction
+            - listitem [ref=e134]:
+              - link "Facilities Management" [ref=e135] [cursor=pointer]:
+                - /url: /services/facilities-management
+            - listitem [ref=e136]:
+              - link "Logistics & Transport" [ref=e137] [cursor=pointer]:
+                - /url: /services/logistics-transport
+            - listitem [ref=e138]:
+              - link "Sanitation & Waste" [ref=e139] [cursor=pointer]:
+                - /url: /services/sanitation-waste
+            - listitem [ref=e140]:
+              - link "Safety Solutions" [ref=e141] [cursor=pointer]:
+                - /url: /services/safety-solutions
+            - listitem [ref=e142]:
+              - link "Plant & Tool Hire" [ref=e143] [cursor=pointer]:
+                - /url: /services/plant-tool-hire
+        - generic [ref=e144]:
+          - heading "Company" [level=3] [ref=e145]
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "About Us" [ref=e148] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e149]:
+              - link "Our Clients" [ref=e150] [cursor=pointer]:
+                - /url: /clients
+            - listitem [ref=e151]:
+              - link "Accreditations" [ref=e152] [cursor=pointer]:
+                - /url: /accreditations
+            - listitem [ref=e153]:
+              - link "Contact" [ref=e154] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e155]:
+          - heading "Contact" [level=3] [ref=e156]
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - link "+27 74 274 8684" [ref=e159] [cursor=pointer]:
+                - /url: tel:+27742748684
+                - img [ref=e160]
+                - text: +27 74 274 8684
+            - listitem [ref=e162]:
+              - link "info@bonram.co.za" [ref=e163] [cursor=pointer]:
+                - /url: mailto:info@bonram.co.za
+                - img [ref=e164]
+                - text: info@bonram.co.za
+            - listitem [ref=e167]:
+              - generic [ref=e168]:
+                - img [ref=e169]
+                - generic [ref=e172]: 06 Geelhaak Street, Onverwacht, Lephalale 0557, Limpopo
+      - generic [ref=e173]:
+        - paragraph [ref=e174]: "© 2026 Bonram (Pty) Ltd. All rights reserved. Reg: 2013/013325/07 | VAT: 4040296859"
+        - paragraph [ref=e175]: "CSD Supplier: MAAA0156166"
+  - button "Open Next.js Dev Tools" [ref=e181] [cursor=pointer]:
+    - img [ref=e182]
+  - alert [ref=e185]

@@ -1,0 +1,345 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Bonram (Pty) Ltd" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Bonram (Pty) Ltd" [ref=e6]
+      - navigation [ref=e7]:
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e9] [cursor=pointer]:
+          - /url: /services
+        - link "Clients" [ref=e10] [cursor=pointer]:
+          - /url: /clients
+        - link "Accreditations" [ref=e11] [cursor=pointer]:
+          - /url: /accreditations
+      - generic [ref=e12]:
+        - link "+27 74 274 8684" [ref=e13] [cursor=pointer]:
+          - /url: tel:+27742748684
+        - link "Get a Quote" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - img "Bonram — Building South Africa's Future" [ref=e18]
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: BBBEE Level 1 Contributor
+          - generic [ref=e26]: Est. 2013
+        - heading "Delivering Excellence Across South Africa" [level=1] [ref=e27]:
+          - text: Delivering Excellence
+          - text: Across South Africa
+        - paragraph [ref=e28]: Bonram is a BBBEE Level 1 multi-service B2B company trusted by Eskom, ArcelorMittal, and government departments nationwide. Building. Managing. Moving. Protecting.
+        - generic [ref=e29]:
+          - link "Our Services" [ref=e30] [cursor=pointer]:
+            - /url: /services
+            - text: Our Services
+            - img [ref=e31]
+          - link "Get a Quote" [ref=e33] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]: "0"
+            - generic [ref=e37]: Service Divisions
+          - generic [ref=e38]:
+            - generic [ref=e39]: "0"
+            - generic [ref=e40]: National Offices
+          - generic [ref=e41]:
+            - generic [ref=e42]: 0+
+            - generic [ref=e43]: Major Clients
+          - generic [ref=e44]:
+            - generic [ref=e45]: "0"
+            - generic [ref=e46]: Accreditations
+      - img [ref=e48]
+    - generic [ref=e51]:
+      - generic [ref=e53]:
+        - paragraph [ref=e54]: What We Do
+        - heading "Eight Divisions. One Trusted Partner." [level=2] [ref=e55]
+        - paragraph [ref=e56]: From civil construction and events management to security and cross-border logistics — Bonram delivers government-grade quality across every sector.
+      - generic [ref=e57]:
+        - link "Building & Construction Civil engineering, roads, solar systems, and structural construction across South Africa. Learn more" [ref=e59] [cursor=pointer]:
+          - /url: /services/building-construction
+          - generic [ref=e60]:
+            - img [ref=e62]
+            - heading "Building & Construction" [level=3] [ref=e67]
+            - paragraph [ref=e68]: Civil engineering, roads, solar systems, and structural construction across South Africa.
+          - generic [ref=e70]:
+            - text: Learn more
+            - img [ref=e71]
+        - link "Facilities Management Corporate and industrial cleaning, hygiene services, pest control, and building maintenance. Learn more" [ref=e74] [cursor=pointer]:
+          - /url: /services/facilities-management
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - heading "Facilities Management" [level=3] [ref=e80]
+            - paragraph [ref=e81]: Corporate and industrial cleaning, hygiene services, pest control, and building maintenance.
+          - generic [ref=e83]:
+            - text: Learn more
+            - img [ref=e84]
+        - link "Logistics & Transport Goods and passenger transport, dangerous goods handling, and import/export clearing. Learn more" [ref=e87] [cursor=pointer]:
+          - /url: /services/logistics-transport
+          - generic [ref=e88]:
+            - img [ref=e90]
+            - heading "Logistics & Transport" [level=3] [ref=e95]
+            - paragraph [ref=e96]: Goods and passenger transport, dangerous goods handling, and import/export clearing.
+          - generic [ref=e98]:
+            - text: Learn more
+            - img [ref=e99]
+        - link "Sanitation & Waste Management Mobile ablution facilities, waste collection, and onsite sanitation management. Learn more" [ref=e102] [cursor=pointer]:
+          - /url: /services/sanitation-waste
+          - generic [ref=e103]:
+            - img [ref=e105]
+            - heading "Sanitation & Waste Management" [level=3] [ref=e108]
+            - paragraph [ref=e109]: Mobile ablution facilities, waste collection, and onsite sanitation management.
+          - generic [ref=e111]:
+            - text: Learn more
+            - img [ref=e112]
+        - link "Safety Solutions PPE supply, safety signage, and equipment for construction, mining, roads, and warehouses. Learn more" [ref=e115] [cursor=pointer]:
+          - /url: /services/safety-solutions
+          - generic [ref=e116]:
+            - img [ref=e118]
+            - heading "Safety Solutions" [level=3] [ref=e121]
+            - paragraph [ref=e122]: PPE supply, safety signage, and equipment for construction, mining, roads, and warehouses.
+          - generic [ref=e124]:
+            - text: Learn more
+            - img [ref=e125]
+        - link "Equipment Hire Event, sanitation, and construction equipment hire — generators, plant, toilets, tents, and more. Learn more" [ref=e128] [cursor=pointer]:
+          - /url: /services/equipment-hire
+          - generic [ref=e129]:
+            - img [ref=e131]
+            - heading "Equipment Hire" [level=3] [ref=e133]
+            - paragraph [ref=e134]: Event, sanitation, and construction equipment hire — generators, plant, toilets, tents, and more.
+          - generic [ref=e136]:
+            - text: Learn more
+            - img [ref=e137]
+        - link "Events Management End-to-end event planning, logistics, equipment, and execution for government and corporate events. Learn more" [ref=e140] [cursor=pointer]:
+          - /url: /services/events-management
+          - generic [ref=e141]:
+            - img [ref=e143]
+            - heading "Events Management" [level=3] [ref=e145]
+            - paragraph [ref=e146]: End-to-end event planning, logistics, equipment, and execution for government and corporate events.
+          - generic [ref=e148]:
+            - text: Learn more
+            - img [ref=e149]
+        - link "Security Services PSIRA-registered security solutions for sites, events, and corporate facilities. Learn more" [ref=e152] [cursor=pointer]:
+          - /url: /services/security-services
+          - generic [ref=e153]:
+            - img [ref=e155]
+            - heading "Security Services" [level=3] [ref=e158]
+            - paragraph [ref=e159]: PSIRA-registered security solutions for sites, events, and corporate facilities.
+          - generic [ref=e161]:
+            - text: Learn more
+            - img [ref=e162]
+    - generic [ref=e165]:
+      - generic [ref=e167]:
+        - paragraph [ref=e168]: Why Bonram
+        - heading "The Partner South Africa Trusts" [level=2] [ref=e169]
+      - generic [ref=e170]:
+        - generic [ref=e172]:
+          - img [ref=e174]
+          - heading "Accredited & Compliant" [level=3] [ref=e177]
+          - paragraph [ref=e178]: 11 industry accreditations including NHBRC, CIDB, PSIRA, and BBBEE Level 1 status — fully equipped for government and corporate tender requirements.
+        - generic [ref=e180]:
+          - img [ref=e182]
+          - heading "Proven Track Record" [level=3] [ref=e184]
+          - paragraph [ref=e185]: "Over a decade serving South Africa's largest institutions: Eskom, ArcelorMittal, EXXARO, and multiple government departments at national and provincial level."
+        - generic [ref=e187]:
+          - img [ref=e189]
+          - heading "National Footprint" [level=3] [ref=e192]
+          - paragraph [ref=e193]: Headquartered in Lephalale with branch offices in Centurion, Secunda, East London, and Durban — we deliver wherever your project demands.
+    - generic [ref=e194]:
+      - generic [ref=e196]:
+        - paragraph [ref=e197]: Trusted By
+        - heading "South Africa's Leading Organisations" [level=2] [ref=e198]
+        - paragraph [ref=e199]: From national SOEs to provincial government departments — our clients represent the backbone of South African industry.
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - img "Eskom logo"
+          - generic [ref=e204]: Eskom
+        - generic [ref=e205]:
+          - generic [ref=e206]:
+            - img "EXXARO logo"
+          - generic [ref=e207]: EXXARO
+        - generic [ref=e208]:
+          - generic [ref=e209]:
+            - img "Enel Green Power logo"
+          - generic [ref=e210]: Enel Green Power
+        - generic [ref=e211]:
+          - generic [ref=e212]:
+            - img "ArcelorMittal SA logo"
+          - generic [ref=e213]: ArcelorMittal SA
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - img "Eskom Rotek Industries logo"
+          - generic [ref=e216]: Eskom Rotek Industries
+        - generic [ref=e217]:
+          - generic [ref=e220]: L
+          - generic [ref=e221]: Ledjadja Coal
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - img "Agricultural Research Council logo"
+          - generic [ref=e224]: Agricultural Research Council
+        - generic [ref=e225]:
+          - generic [ref=e226]:
+            - img "Lephalale Municipality logo"
+          - generic [ref=e227]: Lephalale Municipality
+        - generic [ref=e228]:
+          - generic [ref=e229]:
+            - img "SAPS logo"
+          - generic [ref=e230]: SAPS
+        - generic [ref=e231]:
+          - generic [ref=e234]: L
+          - generic [ref=e235]: Limpopo Legislature
+        - generic [ref=e236]:
+          - generic [ref=e239]: T
+          - generic [ref=e240]: TWF Corporate
+        - generic [ref=e241]:
+          - generic [ref=e244]: A
+          - generic [ref=e245]: Ankole Communications JV
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - img "Eskom logo"
+          - generic [ref=e248]: Eskom
+        - generic [ref=e249]:
+          - generic [ref=e250]:
+            - img "EXXARO logo"
+          - generic [ref=e251]: EXXARO
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - img "Enel Green Power logo"
+          - generic [ref=e254]: Enel Green Power
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - img "ArcelorMittal SA logo"
+          - generic [ref=e257]: ArcelorMittal SA
+        - generic [ref=e258]:
+          - generic [ref=e259]:
+            - img "Eskom Rotek Industries logo"
+          - generic [ref=e260]: Eskom Rotek Industries
+        - generic [ref=e261]:
+          - generic [ref=e264]: L
+          - generic [ref=e265]: Ledjadja Coal
+        - generic [ref=e266]:
+          - generic [ref=e267]:
+            - img "Agricultural Research Council logo"
+          - generic [ref=e268]: Agricultural Research Council
+        - generic [ref=e269]:
+          - generic [ref=e270]:
+            - img "Lephalale Municipality logo"
+          - generic [ref=e271]: Lephalale Municipality
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - img "SAPS logo"
+          - generic [ref=e274]: SAPS
+        - generic [ref=e275]:
+          - generic [ref=e278]: L
+          - generic [ref=e279]: Limpopo Legislature
+        - generic [ref=e280]:
+          - generic [ref=e283]: T
+          - generic [ref=e284]: TWF Corporate
+        - generic [ref=e285]:
+          - generic [ref=e288]: A
+          - generic [ref=e289]: Ankole Communications JV
+      - paragraph [ref=e290]: + 14 more clients across government, energy, mining, and corporate sectors.
+    - generic [ref=e293]:
+      - generic [ref=e295]:
+        - img [ref=e296]
+        - generic [ref=e299]:
+          - paragraph [ref=e300]: BBBEE Level 1
+          - paragraph [ref=e301]: Broad-Based Black Economic Empowerment
+      - generic [ref=e302]:
+        - heading "Maximum Procurement Points for B-BBEE Compliance" [level=2] [ref=e303]
+        - paragraph [ref=e304]: Bonram's BBBEE Level 1 status delivers the highest possible procurement recognition for your organisation's compliance scorecard. We hold all documentation required for government and corporate tender submissions.
+        - list [ref=e305]:
+          - listitem [ref=e306]:
+            - img [ref=e307]
+            - text: CIDB Registered — Government construction tenders
+          - listitem [ref=e310]:
+            - img [ref=e311]
+            - text: NHBRC Accredited — Building compliance
+          - listitem [ref=e314]:
+            - img [ref=e315]
+            - text: BBBEE Level 1 Contributor — Maximum procurement points
+          - listitem [ref=e318]:
+            - img [ref=e319]
+            - text: CSD Supplier No. MAAA0156166
+      - link "View All Accreditations" [ref=e323] [cursor=pointer]:
+        - /url: /accreditations
+    - generic [ref=e325]:
+      - paragraph [ref=e326]: Ready to Partner?
+      - heading "Let's Build Something Great Together" [level=2] [ref=e327]
+      - paragraph [ref=e328]: Whether you need a BBBEE Level 1 partner for your next tender, a facilities management team for your site, or heavy plant for your project — Bonram delivers.
+      - generic [ref=e329]:
+        - link "Get a Quote" [ref=e330] [cursor=pointer]:
+          - /url: /contact
+          - text: Get a Quote
+          - img [ref=e331]
+        - link "Call Us Now" [ref=e333] [cursor=pointer]:
+          - /url: tel:+27742748684
+          - img [ref=e334]
+          - text: Call Us Now
+      - paragraph [ref=e336]: "Head Office: Lephalale, Limpopo | info@bonram.co.za | +27 74 274 8684"
+  - contentinfo [ref=e337]:
+    - generic [ref=e338]:
+      - generic [ref=e339]:
+        - generic [ref=e340]:
+          - img "Bonram (Pty) Ltd" [ref=e341]
+          - paragraph [ref=e342]: BBBEE Level 1 multi-service B2B company delivering excellence across South Africa since 2013.
+          - generic [ref=e344]: BBBEE Level 1
+        - generic [ref=e345]:
+          - heading "Services" [level=3] [ref=e346]
+          - list [ref=e347]:
+            - listitem [ref=e348]:
+              - link "Building & Construction" [ref=e349] [cursor=pointer]:
+                - /url: /services/building-construction
+            - listitem [ref=e350]:
+              - link "Facilities Management" [ref=e351] [cursor=pointer]:
+                - /url: /services/facilities-management
+            - listitem [ref=e352]:
+              - link "Logistics & Transport" [ref=e353] [cursor=pointer]:
+                - /url: /services/logistics-transport
+            - listitem [ref=e354]:
+              - link "Sanitation & Waste" [ref=e355] [cursor=pointer]:
+                - /url: /services/sanitation-waste
+            - listitem [ref=e356]:
+              - link "Safety Solutions" [ref=e357] [cursor=pointer]:
+                - /url: /services/safety-solutions
+            - listitem [ref=e358]:
+              - link "Plant & Tool Hire" [ref=e359] [cursor=pointer]:
+                - /url: /services/plant-tool-hire
+        - generic [ref=e360]:
+          - heading "Company" [level=3] [ref=e361]
+          - list [ref=e362]:
+            - listitem [ref=e363]:
+              - link "About Us" [ref=e364] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e365]:
+              - link "Our Clients" [ref=e366] [cursor=pointer]:
+                - /url: /clients
+            - listitem [ref=e367]:
+              - link "Accreditations" [ref=e368] [cursor=pointer]:
+                - /url: /accreditations
+            - listitem [ref=e369]:
+              - link "Contact" [ref=e370] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e371]:
+          - heading "Contact" [level=3] [ref=e372]
+          - list [ref=e373]:
+            - listitem [ref=e374]:
+              - link "+27 74 274 8684" [ref=e375] [cursor=pointer]:
+                - /url: tel:+27742748684
+                - img [ref=e376]
+                - text: +27 74 274 8684
+            - listitem [ref=e378]:
+              - link "info@bonram.co.za" [ref=e379] [cursor=pointer]:
+                - /url: mailto:info@bonram.co.za
+                - img [ref=e380]
+                - text: info@bonram.co.za
+            - listitem [ref=e383]:
+              - generic [ref=e384]:
+                - img [ref=e385]
+                - generic [ref=e388]: 06 Geelhaak Street, Onverwacht, Lephalale 0557, Limpopo
+      - generic [ref=e389]:
+        - paragraph [ref=e390]: "© 2026 Bonram (Pty) Ltd. All rights reserved. Reg: 2013/013325/07 | VAT: 4040296859"
+        - paragraph [ref=e391]: "CSD Supplier: MAAA0156166"
+  - button "Open Next.js Dev Tools" [ref=e397] [cursor=pointer]:
+    - img [ref=e398]

@@ -1,0 +1,173 @@
+import type { Client } from "@/lib/types";
+
+export const clients: Client[] = [
+  {
+    name: "Eskom",
+    slug: "eskom",
+    domain: "eskom.co.za",
+    sectors: ["energy"],
+    projects: [
+      "Manufacturing of industrial assembly knee joints coal pipes",
+      "Supply of road marking paints",
+      "Facilities management at Fetakgomo CNC",
+      "Supply of bulk construction materials for CSI projects",
+      "Plant hire at Medupi Power Station",
+    ],
+  },
+  {
+    name: "Eskom Rotek Industries",
+    slug: "eskom-rotek",
+    domain: "eskom.co.za",
+    sectors: ["energy"],
+    projects: ["Plant hire and facilities services"],
+  },
+  {
+    name: "Enel Green Power",
+    slug: "enel-green-power",
+    domain: "enelgreenpower.com",
+    sectors: ["energy"],
+    projects: ["Construction of steel carports at a solar energy facility"],
+  },
+  {
+    name: "EXXARO",
+    slug: "exxaro",
+    domain: "exxaro.com",
+    sectors: ["mining"],
+    projects: ["Facilities management and safety solutions"],
+  },
+  {
+    name: "ArcelorMittal South Africa",
+    slug: "arcelormittal",
+    domain: "arcelormittal.com",
+    sectors: ["mining", "corporate"],
+    projects: ["Safety solutions supply and facilities management"],
+  },
+  {
+    name: "Ledjadja Coal",
+    slug: "ledjadja-coal",
+    sectors: ["mining"],
+    projects: ["Logistics, transport, and facilities management at Boikarabelo"],
+  },
+  {
+    name: "Agricultural Research Council",
+    slug: "agricultural-research-council",
+    sectors: ["government", "ngo"],
+    projects: ["Facilities management services"],
+  },
+  {
+    name: "Lephalale Municipality",
+    slug: "lephalale-municipality",
+    sectors: ["government"],
+    projects: ["Sanitation and community transport services"],
+  },
+  {
+    name: "Johannesburg City Power",
+    slug: "johannesburg-city-power",
+    sectors: ["energy", "government"],
+    projects: ["Supply and logistics services"],
+  },
+  {
+    name: "National Department of Public Service and Administration",
+    slug: "national-dpsa",
+    sectors: ["government"],
+    projects: ["Transportation and logistics services"],
+  },
+  {
+    name: "Limpopo Department of Education",
+    slug: "limpopo-education",
+    sectors: ["government"],
+    projects: ["Facilities and transport services"],
+  },
+  {
+    name: "Limpopo Department of Agriculture and Rural Development",
+    slug: "limpopo-agriculture",
+    sectors: ["government"],
+    projects: ["Supply of 1,000 trees and logistics"],
+  },
+  {
+    name: "Limpopo Department of COGHSTA",
+    slug: "limpopo-coghsta",
+    sectors: ["government"],
+    projects: ["Transport and facilities services"],
+  },
+  {
+    name: "Limpopo Department of Economic Development, Environment and Tourism",
+    slug: "limpopo-ledet",
+    sectors: ["government"],
+    projects: ["Environmental and logistics services"],
+  },
+  {
+    name: "Limpopo Department of Sports, Arts and Culture",
+    slug: "limpopo-sports",
+    sectors: ["government"],
+    projects: ["Event logistics and transport"],
+  },
+  {
+    name: "South African Police Service",
+    slug: "saps",
+    sectors: ["government"],
+    projects: ["Facilities management and safety solutions"],
+  },
+  {
+    name: "Ga-Seleka Tribal Authority",
+    slug: "ga-seleka",
+    sectors: ["government"],
+    projects: ["Community transport and logistics"],
+  },
+  {
+    name: "Ankole Communications JV",
+    slug: "ankole-communications",
+    sectors: ["corporate"],
+    projects: ["Logistics services on behalf of Transnet"],
+  },
+  {
+    name: "TWF Corporate",
+    slug: "twf-corporate",
+    sectors: ["corporate"],
+    projects: ["Facilities and corporate services"],
+  },
+  {
+    name: "Rainbow Civils",
+    slug: "rainbow-civils",
+    sectors: ["corporate"],
+    projects: ["Plant hire and construction support"],
+  },
+  {
+    name: "Botle Ba Africa Roads",
+    slug: "botle-ba-africa",
+    sectors: ["corporate"],
+    projects: ["Plant hire and road construction support"],
+  },
+  {
+    name: "TT Thermal",
+    slug: "tt-thermal",
+    sectors: ["corporate"],
+    projects: ["Logistics and supply services"],
+  },
+  {
+    name: "MENATE KING",
+    slug: "menate-king",
+    sectors: ["corporate"],
+    projects: ["Facilities and supply services"],
+  },
+  {
+    name: "Margisia Lifting Solutions",
+    slug: "margisia-lifting",
+    sectors: ["corporate"],
+    projects: ["Plant hire and logistics"],
+  },
+  {
+    name: "Imbanita Consulting",
+    slug: "imbanita-consulting",
+    sectors: ["corporate"],
+    projects: ["Consulting and project support services"],
+  },
+  {
+    name: "Limpopo Legislature",
+    slug: "limpopo-legislature",
+    sectors: ["government"],
+    projects: ["Facilities management and transport services"],
+  },
+];
+
+export const featuredClients = clients.slice(0, 12);

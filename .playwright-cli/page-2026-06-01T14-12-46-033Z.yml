@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Bonram (Pty) Ltd" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Bonram (Pty) Ltd" [ref=e6]
+      - navigation [ref=e7]:
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: /about
+        - link "Services" [ref=e9] [cursor=pointer]:
+          - /url: /services
+        - link "Clients" [ref=e10] [cursor=pointer]:
+          - /url: /clients
+        - link "Accreditations" [ref=e11] [cursor=pointer]:
+          - /url: /accreditations
+      - generic [ref=e12]:
+        - link "+27 74 274 8684" [ref=e13] [cursor=pointer]:
+          - /url: tel:+27742748684
+        - link "Get a Quote" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=e15]:
+    - generic [ref=e17]:
+      - paragraph [ref=e18]: Get In Touch
+      - heading "Contact Us" [level=1] [ref=e19]
+      - paragraph [ref=e20]: We respond within 24 hours. Ready to partner? Let's talk.
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - heading "Send Us a Message" [level=2] [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - generic [ref=e29]: Full Name *
+              - textbox "Full Name *" [ref=e30]:
+                - /placeholder: John Smith
+            - generic [ref=e31]:
+              - generic [ref=e32]: Company
+              - textbox "Company" [ref=e33]:
+                - /placeholder: Acme Corp
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - generic [ref=e36]: Email Address *
+              - textbox "Email Address *" [ref=e37]:
+                - /placeholder: john@company.com
+            - generic [ref=e38]:
+              - generic [ref=e39]: Phone Number
+              - textbox "Phone Number" [ref=e40]:
+                - /placeholder: +27 xx xxx xxxx
+          - generic [ref=e41]:
+            - generic [ref=e42]: Service Required
+            - combobox "Service Required" [ref=e43]:
+              - option "Select a service..." [selected]
+              - option "Building & Construction"
+              - option "Facilities Management"
+              - option "Logistics & Transport"
+              - option "Sanitation & Waste Management"
+              - option "Safety Solutions"
+              - option "Plant & Tool Hire"
+              - option "Multiple Services"
+              - option "General Inquiry"
+          - generic [ref=e44]:
+            - generic [ref=e45]: Message *
+            - textbox "Message *" [ref=e46]:
+              - /placeholder: Describe your project or requirements...
+          - button "Send Message" [ref=e47]:
+            - img [ref=e48]
+            - text: Send Message
+      - generic [ref=e51]:
+        - heading "Contact Information" [level=2] [ref=e52]
+        - generic [ref=e53]:
+          - link "Phone +27 74 274 8684" [ref=e54] [cursor=pointer]:
+            - /url: tel:+27742748684
+            - img [ref=e56]
+            - generic [ref=e58]:
+              - paragraph [ref=e59]: Phone
+              - paragraph [ref=e60]: +27 74 274 8684
+          - link "Email info@bonram.co.za" [ref=e61] [cursor=pointer]:
+            - /url: mailto:info@bonram.co.za
+            - img [ref=e63]
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: Email
+              - paragraph [ref=e68]: info@bonram.co.za
+          - generic [ref=e69]:
+            - img [ref=e71]
+            - generic [ref=e75]:
+              - paragraph [ref=e76]: Fax
+              - paragraph [ref=e77]: +27 86 657 5675
+        - generic [ref=e78]:
+          - paragraph [ref=e79]: Procurement Details
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: "CSD Supplier: MAAA0156166"
+            - paragraph [ref=e82]: "VAT Number: 4040296859"
+            - paragraph [ref=e83]: "Reg. Number: 2013/013325/07"
+            - paragraph [ref=e84]: "BBBEE Status: Level 1"
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - paragraph [ref=e88]: 5 Offices
+        - heading "Where to Find Us" [level=2] [ref=e89]
+      - generic [ref=e90]:
+        - generic [ref=e92]:
+          - img [ref=e93]
+          - generic [ref=e96]:
+            - paragraph [ref=e97]: Head Office — Lephalale
+            - paragraph [ref=e98]:
+              - text: 06 Geelhaak Street, Onverwacht
+              - text: Lephalale, Limpopo 0557
+        - generic [ref=e100]:
+          - img [ref=e101]
+          - generic [ref=e104]:
+            - paragraph [ref=e105]: Centurion Branch
+            - paragraph [ref=e106]:
+              - text: 6716 Spekvreter Street
+              - text: Centurion, Pretoria, Gauteng 0157
+        - generic [ref=e108]:
+          - img [ref=e109]
+          - generic [ref=e112]:
+            - paragraph [ref=e113]: Secunda Branch
+            - paragraph [ref=e114]:
+              - text: 9785 Lekavelane Street, Embalenhle
+              - text: Secunda, Mpumalanga 2285
+        - generic [ref=e116]:
+          - img [ref=e117]
+          - generic [ref=e120]:
+            - paragraph [ref=e121]: East London Branch
+            - paragraph [ref=e122]:
+              - text: 23 Westbourne Road, Amalinda
+              - text: East London, Eastern Cape 5247
+        - generic [ref=e124]:
+          - img [ref=e125]
+          - generic [ref=e128]:
+            - paragraph [ref=e129]: Durban Branch
+            - paragraph [ref=e130]:
+              - text: 06 Alkenaar Road, Glenmore
+              - text: Durban, KwaZulu-Natal 2336
+  - contentinfo [ref=e131]:
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - img "Bonram (Pty) Ltd" [ref=e135]
+          - paragraph [ref=e136]: BBBEE Level 1 multi-service B2B company delivering excellence across South Africa since 2013.
+          - generic [ref=e138]: BBBEE Level 1
+        - generic [ref=e139]:
+          - heading "Services" [level=3] [ref=e140]
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - link "Building & Construction" [ref=e143] [cursor=pointer]:
+                - /url: /services/building-construction
+            - listitem [ref=e144]:
+              - link "Facilities Management" [ref=e145] [cursor=pointer]:
+                - /url: /services/facilities-management
+            - listitem [ref=e146]:
+              - link "Logistics & Transport" [ref=e147] [cursor=pointer]:
+                - /url: /services/logistics-transport
+            - listitem [ref=e148]:
+              - link "Sanitation & Waste" [ref=e149] [cursor=pointer]:
+                - /url: /services/sanitation-waste
+            - listitem [ref=e150]:
+              - link "Safety Solutions" [ref=e151] [cursor=pointer]:
+                - /url: /services/safety-solutions
+            - listitem [ref=e152]:
+              - link "Plant & Tool Hire" [ref=e153] [cursor=pointer]:
+                - /url: /services/plant-tool-hire
+        - generic [ref=e154]:
+          - heading "Company" [level=3] [ref=e155]
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "About Us" [ref=e158] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e159]:
+              - link "Our Clients" [ref=e160] [cursor=pointer]:
+                - /url: /clients
+            - listitem [ref=e161]:
+              - link "Accreditations" [ref=e162] [cursor=pointer]:
+                - /url: /accreditations
+            - listitem [ref=e163]:
+              - link "Contact" [ref=e164] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e165]:
+          - heading "Contact" [level=3] [ref=e166]
+          - list [ref=e167]:
+            - listitem [ref=e168]:
+              - link "+27 74 274 8684" [ref=e169] [cursor=pointer]:
+                - /url: tel:+27742748684
+                - img [ref=e170]
+                - text: +27 74 274 8684
+            - listitem [ref=e172]:
+              - link "info@bonram.co.za" [ref=e173] [cursor=pointer]:
+                - /url: mailto:info@bonram.co.za
+                - img [ref=e174]
+                - text: info@bonram.co.za
+            - listitem [ref=e177]:
+              - generic [ref=e178]:
+                - img [ref=e179]
+                - generic [ref=e182]: 06 Geelhaak Street, Onverwacht, Lephalale 0557, Limpopo
+      - generic [ref=e183]:
+        - paragraph [ref=e184]: "© 2026 Bonram (Pty) Ltd. All rights reserved. Reg: 2013/013325/07 | VAT: 4040296859"
+        - paragraph [ref=e185]: "CSD Supplier: MAAA0156166"
+  - button "Open Next.js Dev Tools" [ref=e191] [cursor=pointer]:
+    - img [ref=e192]
+  - alert [ref=e195]

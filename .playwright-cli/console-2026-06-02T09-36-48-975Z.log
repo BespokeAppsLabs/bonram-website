@@ -1,0 +1,24 @@
+[     427ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     477ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     571ms] [WARNING] Image with src "/logo/bonram-logo-white.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[    1280ms] [WARNING] Image with src "/logo/bonram-logo-white.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   20441ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   20787ms] [LOG] [Fast Refresh] done in 447ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   20948ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   21332ms] [LOG] [Fast Refresh] done in 484ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   21332ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Farcelormittal.com&w=128&q=75:0
+[   21333ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Farc.agric.za&w=128&q=75:0
+[   21333ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Flephalale.gov.za&w=128&q=75:0
+[   21333ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Fsaps.gov.za&w=128&q=75:0
+[   21334ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Fexxaro.com&w=128&q=75:0
+[   21334ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Feskom.co.za&w=128&q=75:0
+[   21377ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Fenelgreenpower.com&w=128&q=75:0
+[   23572ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Farc.agric.za&w=128&q=75:0
+[   26478ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Flephalale.gov.za&w=128&q=75:0
+[   29381ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Fsaps.gov.za&w=128&q=75:0
+[   35484ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Fexxaro.com&w=128&q=75:0
+[   35499ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Feskom.co.za&w=128&q=75:0
+[   35499ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/image?url=https%3A%2F%2Flogo.clearbit.com%2Fenelgreenpower.com&w=128&q=75:0
+[   57743ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[   57768ms] [LOG] [Fast Refresh] done in 45ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
