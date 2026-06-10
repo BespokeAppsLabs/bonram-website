@@ -2,18 +2,18 @@ import SectionHeader from "@/components/ui/SectionHeader";
 import ClientLogo from "./ClientLogo";
 
 const featured = [
-  { name: "Eskom", domain: "eskom.co.za" },
-  { name: "EXXARO", domain: "exxaro.com" },
-  { name: "Enel Green Power", domain: "enelgreenpower.com" },
-  { name: "ArcelorMittal SA", domain: "arcelormittal.com" },
-  { name: "Eskom Rotek Industries", domain: "eskom.co.za" },
-  { name: "Ledjadja Coal", domain: undefined },
-  { name: "Agricultural Research Council", domain: "arc.agric.za" },
-  { name: "Lephalale Municipality", domain: "lephalale.gov.za" },
-  { name: "SAPS", domain: "saps.gov.za" },
-  { name: "Limpopo Legislature", domain: undefined },
-  { name: "TWF Corporate", domain: undefined },
-  { name: "Ankole Communications JV", domain: undefined },
+  { name: "Eskom", logo: "/logo/partner_logo/Eskom.png" },
+  { name: "EXXARO", logo: "/logo/partner_logo/exxaro.png" },
+  { name: "Enel Green Power", logo: "/logo/partner_logo/enel.jpeg" },
+  { name: "ArcelorMittal SA", logo: "/logo/partner_logo/arcelormittal.png" },
+  { name: "Eskom Rotek Industries", logo: "/logo/partner_logo/rotek.jpeg" },
+  { name: "Ledjadja Coal", logo: undefined },
+  { name: "Agricultural Research Council", logo: "/logo/partner_logo/argri_research_council.png" },
+  { name: "Lephalale Municipality", logo: "/logo/partner_logo/Lephalale_municipal.jpeg" },
+  { name: "SAPS", logo: "/logo/partner_logo/SAPS.png" },
+  { name: "Limpopo Legislature", logo: "/logo/partner_logo/limpopo_legislature.png" },
+  { name: "TWF Corporate", logo: "/logo/partner_logo/TWF_corp.png" },
+  { name: "Ankole Communications JV", logo: "/logo/partner_logo/ankole_comms.jpeg" },
 ];
 
 export default function ClientLogoStrip() {
@@ -35,7 +35,7 @@ export default function ClientLogoStrip() {
               className="flex-shrink-0 flex flex-col items-center justify-between gap-3 w-40 h-28 bg-mist rounded-xl border border-border px-4 py-4 shadow-sm hover:border-gold/40 hover:shadow-md transition-all duration-200"
             >
               <div className="flex items-center justify-center flex-1 w-full">
-                <ClientLogo name={client.name} domain={client.domain} />
+                <ClientLogo name={client.name} logo={client.logo} />
               </div>
               <span className="text-[10px] font-semibold text-slate text-center leading-tight line-clamp-2 w-full">
                 {client.name}
