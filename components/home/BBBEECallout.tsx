@@ -28,7 +28,7 @@ export default function BBBEECallout() {
               Maximum Procurement Points for B-BBEE Compliance
             </h2>
             <p className="text-white/70 mb-6 leading-relaxed">
-              Bonram's BBBEE Level 1 status delivers the highest possible procurement recognition for your organisation's compliance scorecard. We hold all documentation required for government and corporate tender submissions.
+              Bonram&apos;s BBBEE Level 1 status delivers the highest possible procurement recognition for your organisation&apos;s compliance scorecard. We hold all documentation required for government and corporate tender submissions.
             </p>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {highlights.map((item) => (

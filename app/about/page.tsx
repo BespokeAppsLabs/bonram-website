@@ -40,7 +40,7 @@ export default function AboutPage() {
               <p className="text-xs font-bold uppercase tracking-widest text-gold mb-3">Our Story</p>
               <h2 className="text-3xl font-bold text-navy mb-5">Built on Service. Proven by Performance.</h2>
               <p className="text-slate leading-relaxed mb-4">
-                Bonram (Pty) Ltd was established in 2013 in Lephalale, Limpopo — a strategic hub at the heart of South Africa's energy and mining corridor. From day one, our mandate was clear: deliver government-grade service quality to corporate and institutional clients across every sector we operate in.
+                Bonram (Pty) Ltd was established in 2013 in Lephalale, Limpopo — a strategic hub at the heart of South Africa&apos;s energy and mining corridor. From day one, our mandate was clear: deliver government-grade service quality to corporate and institutional clients across every sector we operate in.
               </p>
               <p className="text-slate leading-relaxed mb-4">
                 Over a decade later, we have grown from a single-service contractor to a multi-division B2B services company with 5 national offices, 11 industry accreditations, and a client portfolio that includes Eskom, ArcelorMittal, Enel Green Power, EXXARO, and multiple national and provincial government departments.
@@ -60,7 +60,7 @@ export default function AboutPage() {
               <div className="bg-mist rounded-lg p-6 border border-border">
                 <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Our Mission</p>
                 <p className="text-navy font-semibold text-lg leading-snug">
-                  To provide high quality products and services for the fulfilment of our clients' needs.
+                  To provide high quality products and services for the fulfilment of our clients&apos; needs.
                 </p>
               </div>
               <div className="bg-mist rounded-lg p-6 border border-border">
@@ -105,7 +105,7 @@ export default function AboutPage() {
             subheading="Experienced leaders with deep expertise across engineering, operations, and finance."
             className="mb-12"
           />
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
             {team.map((member) => (
               <ManagementCard key={member.name} member={member} />
             ))}

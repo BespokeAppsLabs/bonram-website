@@ -34,4 +34,17 @@ export const team: TeamMember[] = [
       "Finance Management",
     ],
   },
+  {
+    name: "Lucas Semenya",
+    role: "Information Technology Officer",
+    image: undefined,
+    background: [
+      "Mechanical Engineering",
+      "Full-Stack Software Development",
+      "AI Systems Architecture & Automation",
+      "Cloud Infrastructure & DevOps",
+      "Information Systems Management",
+      "Digital Transformation Strategy",
+    ],
+  },
 ];
