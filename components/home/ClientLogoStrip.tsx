@@ -8,7 +8,7 @@ const featured = [
   { name: "ArcelorMittal SA", logo: "/logo/partner_logo/arcelormittal.png" },
   { name: "Eskom Rotek Industries", logo: "/logo/partner_logo/rotek.jpeg" },
   { name: "Ledjadja Coal", logo: undefined },
-  { name: "Agricultural Research Council", logo: "/logo/partner_logo/argri_research_council.png" },
+  { name: "Agricultural Research Council", logo: "/logo/partner_logo/agri_research_council.png" },
   { name: "Lephalale Municipality", logo: "/logo/partner_logo/Lephalale_municipal.jpeg" },
   { name: "SAPS", logo: "/logo/partner_logo/SAPS.png" },
   { name: "Limpopo Legislature", logo: "/logo/partner_logo/limpopo_legislature.png" },
