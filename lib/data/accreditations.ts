@@ -78,8 +78,8 @@ export const accreditations: Accreditation[] = [
     name: "AMPS-Africa",
     regNo: undefined,
     description:
-      "Africa Mobility and Passenger Services. Accreditation validates our passenger transport fleet, driver qualifications, and safety protocols for employee and community transportation.",
-    relevantServices: ["logistics-transport"],
+      "Association of Mobile and Portable Sanitation. Accreditation validates our mobile and portable sanitation solutions, ensuring compliance with industry standards for hygiene and sanitation services.",
+    relevantServices: ["sanitation-waste"],
   },
   {
     slug: "vasa",
