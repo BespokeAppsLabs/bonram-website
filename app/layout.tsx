@@ -32,7 +32,11 @@ export const metadata: Metadata = {
     "plant and equipment hire",
     "events management government corporate",
     "PSIRA registered security services",
-    "Lephalale Centurion Secunda East London Durban",
+    "Lephalale",
+    "Centurion",
+    "Secunda",
+    "East London",
+    "Durban",
   ],
   openGraph: {
     type: "website",
@@ -81,13 +85,17 @@ const jsonLd = {
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Bonram Services",
-    itemListElement: services.map((s) => ({
-      "@type": "Offer",
-      itemOffered: {
-        "@type": "Service",
-        name: s.name,
-        description: s.shortDescription,
-        url: `https://www.bonram.co.za/services/${s.slug}`,
+    itemListElement: services.map((s, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: s.name,
+          description: s.shortDescription,
+          url: `https://www.bonram.co.za/services/${s.slug}`,
+        },
       },
     })),
   },

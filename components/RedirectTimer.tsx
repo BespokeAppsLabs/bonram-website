@@ -9,7 +9,7 @@ export default function RedirectTimer({ seconds = 6, to = "/" }: { seconds?: num
 
   useEffect(() => {
     if (remaining <= 0) {
-      router.push(to);
+      router.replace(to);
       return;
     }
     const t = setTimeout(() => setRemaining((s) => s - 1), 1000);
