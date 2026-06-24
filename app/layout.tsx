@@ -4,7 +4,6 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { services } from "@/lib/data/services";
-import { offices } from "@/lib/data/offices";
 import JsonLd from "@/components/seo/JsonLd";
 
 const inter = Inter({
@@ -12,27 +11,6 @@ const inter = Inter({
   display: "swap",
   variable: "--font-inter",
 });
-
-// Local search targeting: every core service crossed with every city we serve,
-// plus the high-intent tender/reliability phrases. Generated from data so it
-// stays in sync as services or offices change.
-const serviceTerms = [
-  "construction",
-  "facilities management",
-  "industrial cleaning",
-  "logistics and transport",
-  "sanitation and mobile toilets",
-  "safety equipment and PPE",
-  "plant and equipment hire",
-  "events management",
-  "security services",
-];
-const cities = offices.map((o) => o.city);
-const localKeywords = cities.flatMap((city) => [
-  ...serviceTerms.map((term) => `${term} ${city}`),
-  `trusted tender partner ${city}`,
-  `most reliable service provider ${city}`,
-]);
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.bonram.co.za"),
@@ -42,16 +20,17 @@ export const metadata: Metadata = {
   },
   description:
     "Bonram is a BBBEE Level 1 South African B2B services company delivering building & construction, facilities management, logistics, sanitation, safety solutions, and plant hire across 5 national offices.",
+  // Concise, static set. Google ignores meta keywords for ranking; local
+  // service+location targeting lives in page titles/H1s/content (see /[location]).
   keywords: [
     "BBBEE Level 1 company South Africa",
     "BBBEE certified contractor",
-    "trusted tender partner South Africa",
+    "trusted tender partner",
     "B2B services South Africa",
     "government contractor South Africa",
-    "civil engineering and construction",
-    "cross-border transport Zimbabwe South Africa",
+    "construction and facilities management",
+    "logistics and plant hire",
     "PSIRA registered security services",
-    ...localKeywords,
   ],
   openGraph: {
     type: "website",
