@@ -9,7 +9,7 @@ const serviceLinks = [
   { label: "Logistics & Transport", href: "/services/logistics-transport" },
   { label: "Sanitation & Waste", href: "/services/sanitation-waste" },
   { label: "Safety Solutions", href: "/services/safety-solutions" },
-  { label: "Plant & Tool Hire", href: "/services/plant-tool-hire" },
+  { label: "Equipment Hire", href: "/services/equipment-hire" },
 ];
 
 const companyLinks = [

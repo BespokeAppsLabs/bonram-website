@@ -139,9 +139,9 @@ export default async function LocationPage({
                 href={`/services/${s.slug}`}
                 className="group block border border-border rounded-lg p-6 hover:border-gold hover:shadow-md transition-all"
               >
-                <h2 className="text-lg font-bold text-navy mb-2 group-hover:text-gold transition-colors">
+                <h3 className="text-lg font-bold text-navy mb-2 group-hover:text-gold transition-colors">
                   {s.name} in {city}
-                </h2>
+                </h3>
                 <p className="text-slate text-sm leading-relaxed">{s.shortDescription}</p>
                 <span className="inline-flex items-center gap-1 text-gold text-sm font-semibold mt-4">
                   Learn more <ArrowRight size={14} />

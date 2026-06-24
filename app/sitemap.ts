@@ -12,7 +12,6 @@ const serviceRoutes = [
   "equipment-hire",
   "events-management",
   "security-services",
-  "plant-tool-hire",
 ];
 
 // Fixed content-release date — bump when page content actually changes.
