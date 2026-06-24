@@ -4,12 +4,34 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { services } from "@/lib/data/services";
+import { offices } from "@/lib/data/offices";
 
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-inter",
 });
+
+// Local search targeting: every core service crossed with every city we serve,
+// plus the high-intent tender/reliability phrases. Generated from data so it
+// stays in sync as services or offices change.
+const serviceTerms = [
+  "construction",
+  "facilities management",
+  "industrial cleaning",
+  "logistics and transport",
+  "sanitation and mobile toilets",
+  "safety equipment and PPE",
+  "plant and equipment hire",
+  "events management",
+  "security services",
+];
+const cities = offices.map((o) => o.city);
+const localKeywords = cities.flatMap((city) => [
+  ...serviceTerms.map((term) => `${term} ${city}`),
+  `trusted tender partner ${city}`,
+  `most reliable service provider ${city}`,
+]);
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.bonram.co.za"),
@@ -21,22 +43,14 @@ export const metadata: Metadata = {
     "Bonram is a BBBEE Level 1 South African B2B services company delivering building & construction, facilities management, logistics, sanitation, safety solutions, and plant hire across 5 national offices.",
   keywords: [
     "BBBEE Level 1 company South Africa",
-    "B2B services Limpopo",
+    "BBBEE certified contractor",
+    "trusted tender partner South Africa",
+    "B2B services South Africa",
     "government contractor South Africa",
     "civil engineering and construction",
-    "facilities management and industrial cleaning",
-    "logistics and transport dangerous goods",
     "cross-border transport Zimbabwe South Africa",
-    "sanitation and mobile toilet hire",
-    "PPE and safety equipment supplier",
-    "plant and equipment hire",
-    "events management government corporate",
     "PSIRA registered security services",
-    "Lephalale",
-    "Centurion",
-    "Secunda",
-    "East London",
-    "Durban",
+    ...localKeywords,
   ],
   openGraph: {
     type: "website",

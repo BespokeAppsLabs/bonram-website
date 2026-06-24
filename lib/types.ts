@@ -31,10 +31,13 @@ export interface Accreditation {
 export interface Office {
   name: string;
   type: "head" | "branch";
+  slug: string;
   address: string;
   city: string;
   province: string;
   postalCode: string;
+  // Short, locally-relevant blurb used on the /[location] landing page.
+  blurb: string;
 }
 
 export interface TeamMember {

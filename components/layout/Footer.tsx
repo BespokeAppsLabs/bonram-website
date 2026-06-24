@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
+import { offices } from "@/lib/data/offices";
 
 const serviceLinks = [
   { label: "Building & Construction", href: "/services/building-construction" },
@@ -96,7 +97,23 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-white/50 text-xs">
+        <div className="border-t border-white/10 mt-12 pt-8">
+          <h3 className="text-white font-semibold text-sm uppercase tracking-widest mb-4">Areas We Serve</h3>
+          <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            {offices.map((o) => (
+              <li key={o.slug}>
+                <Link
+                  href={`/${o.slug}`}
+                  className="text-white/70 hover:text-gold text-sm transition-colors"
+                >
+                  {o.city}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="border-t border-white/10 mt-8 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-white/50 text-xs">
           <p>© {new Date().getFullYear()} Bonram (Pty) Ltd. All rights reserved. Reg: 2013/013325/07 | VAT: 4040296859</p>
           <p>CSD Supplier: MAAA0156166</p>
         </div>

@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { offices } from "@/lib/data/offices";
 
 const base = "https://www.bonram.co.za";
 
@@ -21,6 +22,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/services`, changeFrequency: "monthly", priority: 0.9 },
     ...serviceRoutes.map((s) => ({
       url: `${base}/services/${s}`,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    ...offices.map((o) => ({
+      url: `${base}/${o.slug}`,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
