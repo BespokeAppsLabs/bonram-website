@@ -12,6 +12,7 @@ import { CheckCircle } from "lucide-react";
 const slug = "sanitation-waste";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/sanitation-waste" },
   title: "Sanitation & Waste Management",
   description: "Mobile VIP toilets, ablution facilities, and waste management services for construction sites, events, and government projects.",
 };

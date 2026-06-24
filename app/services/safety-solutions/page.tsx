@@ -12,6 +12,7 @@ import { CheckCircle } from "lucide-react";
 const slug = "safety-solutions";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/safety-solutions" },
   title: "Safety Solutions",
   description: "PPE supply, safety signage, and protective equipment for construction, mining, roads, and industrial sites — SAIOSH and PSIRA accredited.",
 };

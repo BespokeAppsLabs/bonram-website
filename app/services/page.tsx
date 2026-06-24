@@ -5,6 +5,7 @@ import SectionHeader from "@/components/ui/SectionHeader";
 import HomeCTA from "@/components/home/HomeCTA";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services" },
   title: "Our Services",
   description:
     "Bonram delivers 8 B2B service divisions: building & construction, facilities management, logistics, events management, sanitation, safety solutions, equipment hire, and security services.",

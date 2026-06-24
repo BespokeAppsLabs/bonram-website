@@ -12,6 +12,7 @@ import { CheckCircle } from "lucide-react";
 const slug = "equipment-hire";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/equipment-hire" },
   title: "Equipment Hire",
   description: "Event, sanitation, and construction equipment hire — tents, generators, mobile toilets, heavy plant, scaffolding, and more. CIDB registered.",
 };

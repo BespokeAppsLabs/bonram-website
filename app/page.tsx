@@ -10,6 +10,7 @@ import FAQ from "@/components/ui/FAQ";
 import { generalFaqs } from "@/lib/data/faqs";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: "Bonram (Pty) Ltd | BBBEE Level 1 Multi-Service B2B Company",
   description:
     "South Africa's trusted BBBEE Level 1 B2B services company — building & construction, facilities management, logistics, sanitation, safety solutions, and plant hire. Serving Eskom, ArcelorMittal, government departments and more.",

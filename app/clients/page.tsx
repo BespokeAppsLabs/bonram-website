@@ -5,6 +5,7 @@ import HomeCTA from "@/components/home/HomeCTA";
 import Badge from "@/components/ui/Badge";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/clients" },
   title: "Our Clients",
   description:
     "Bonram serves 26+ major clients including Eskom, ArcelorMittal, EXXARO, Enel Green Power, and multiple South African government departments.",

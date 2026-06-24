@@ -12,6 +12,7 @@ import { CheckCircle } from "lucide-react";
 const slug = "security-services";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/security-services" },
   title: "Security Services",
   description: "PSIRA-registered security officers, static guarding, access control, and event security for government, corporate, and construction sites.",
 };

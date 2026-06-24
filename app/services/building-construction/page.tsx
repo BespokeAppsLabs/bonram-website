@@ -12,6 +12,7 @@ import { CheckCircle } from "lucide-react";
 const slug = "building-construction";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/building-construction" },
   title: "Building & Construction",
   description: "Civil engineering, roads, solar systems, carports, and structural construction — delivered by a CIDB and NHBRC accredited contractor across South Africa.",
 };

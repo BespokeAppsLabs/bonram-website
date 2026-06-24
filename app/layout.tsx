@@ -20,18 +20,9 @@ export const metadata: Metadata = {
   },
   description:
     "Bonram is a BBBEE Level 1 South African B2B services company delivering building & construction, facilities management, logistics, sanitation, safety solutions, and plant hire across 5 national offices.",
-  // Concise, static set. Google ignores meta keywords for ranking; local
-  // service+location targeting lives in page titles/H1s/content (see /[location]).
-  keywords: [
-    "BBBEE Level 1 company South Africa",
-    "BBBEE certified contractor",
-    "trusted tender partner",
-    "B2B services South Africa",
-    "government contractor South Africa",
-    "construction and facilities management",
-    "logistics and plant hire",
-    "PSIRA registered security services",
-  ],
+  // No `keywords`: Google ignores meta keywords for ranking, it adds document
+  // bytes, and exposes targeting to competitors. Local service+location
+  // targeting lives in page titles/H1s/content (see /[location]).
   openGraph: {
     type: "website",
     locale: "en_ZA",

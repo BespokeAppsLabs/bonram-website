@@ -12,6 +12,7 @@ import { CheckCircle } from "lucide-react";
 const slug = "facilities-management";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/facilities-management" },
   title: "Facilities Management",
   description: "Corporate and industrial cleaning, hygiene services, pest control, and building maintenance by BEECA and SAIOSH accredited teams.",
 };

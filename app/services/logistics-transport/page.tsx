@@ -12,6 +12,7 @@ import { CheckCircle } from "lucide-react";
 const slug = "logistics-transport";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/logistics-transport" },
   title: "Logistics & Transport",
   description: "Goods and passenger transport, dangerous goods handling, and cross-border logistics — SARS Customs registered, nationally operational.",
 };
