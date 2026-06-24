@@ -86,10 +86,7 @@ export default async function LocationPage({
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: "https://www.bonram.co.za/" },

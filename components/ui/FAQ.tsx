@@ -21,7 +21,10 @@ export default function FAQ({ items, heading = "Frequently Asked Questions", eye
             <details key={item.q} className="group border-b border-border py-5">
               <summary className="flex cursor-pointer items-center justify-between gap-4 font-semibold text-navy list-none [&::-webkit-details-marker]:hidden">
                 {item.q}
-                <span className="text-gold text-2xl leading-none transition-transform group-open:rotate-45">
+                <span
+                  aria-hidden="true"
+                  className="text-gold text-2xl leading-none transition-transform group-open:rotate-45"
+                >
                   +
                 </span>
               </summary>
