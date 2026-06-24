@@ -4,6 +4,7 @@ import { getServiceBySlug } from "@/lib/data/services";
 import { accreditations } from "@/lib/data/accreditations";
 import ServiceHero from "@/components/services/ServiceHero";
 import ServiceCTA from "@/components/services/ServiceCTA";
+import ServiceFAQ from "@/components/services/ServiceFAQ";
 import SectionHeader from "@/components/ui/SectionHeader";
 import AccreditationCard from "@/components/accreditations/AccreditationCard";
 import { CheckCircle } from "lucide-react";
@@ -11,6 +12,7 @@ import { CheckCircle } from "lucide-react";
 const slug = "facilities-management";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/facilities-management" },
   title: "Facilities Management",
   description: "Corporate and industrial cleaning, hygiene services, pest control, and building maintenance by BEECA and SAIOSH accredited teams.",
 };
@@ -58,6 +60,7 @@ export default function FacilitiesManagementPage() {
           </div>
         </div>
       </section>
+      <ServiceFAQ service={service} />
       <ServiceCTA serviceName={service.name} />
     </>
   );

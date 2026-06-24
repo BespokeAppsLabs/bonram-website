@@ -6,6 +6,7 @@ import HomeCTA from "@/components/home/HomeCTA";
 import { FileText, Award } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/accreditations" },
   title: "Accreditations & Compliance",
   description:
     "Bonram holds 11 industry accreditations including NHBRC, CIDB, PSIRA, QCTO, SARS Customs, and BBBEE Level 1. CSD Supplier No. MAAA0156166.",

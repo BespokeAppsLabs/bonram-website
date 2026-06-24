@@ -4,6 +4,7 @@ import { getServiceBySlug } from "@/lib/data/services";
 import { accreditations } from "@/lib/data/accreditations";
 import ServiceHero from "@/components/services/ServiceHero";
 import ServiceCTA from "@/components/services/ServiceCTA";
+import ServiceFAQ from "@/components/services/ServiceFAQ";
 import SectionHeader from "@/components/ui/SectionHeader";
 import AccreditationCard from "@/components/accreditations/AccreditationCard";
 import { CheckCircle } from "lucide-react";
@@ -11,6 +12,7 @@ import { CheckCircle } from "lucide-react";
 const slug = "equipment-hire";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/equipment-hire" },
   title: "Equipment Hire",
   description: "Event, sanitation, and construction equipment hire — tents, generators, mobile toilets, heavy plant, scaffolding, and more. CIDB registered.",
 };
@@ -68,6 +70,7 @@ export default function EquipmentHirePage() {
           </div>
         </div>
       </section>
+      <ServiceFAQ service={service} />
       <ServiceCTA serviceName={service.name} />
     </>
   );

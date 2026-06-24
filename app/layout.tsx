@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { services } from "@/lib/data/services";
+import JsonLd from "@/components/seo/JsonLd";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,25 +20,9 @@ export const metadata: Metadata = {
   },
   description:
     "Bonram is a BBBEE Level 1 South African B2B services company delivering building & construction, facilities management, logistics, sanitation, safety solutions, and plant hire across 5 national offices.",
-  keywords: [
-    "BBBEE Level 1 company South Africa",
-    "B2B services Limpopo",
-    "government contractor South Africa",
-    "civil engineering and construction",
-    "facilities management and industrial cleaning",
-    "logistics and transport dangerous goods",
-    "cross-border transport Zimbabwe South Africa",
-    "sanitation and mobile toilet hire",
-    "PPE and safety equipment supplier",
-    "plant and equipment hire",
-    "events management government corporate",
-    "PSIRA registered security services",
-    "Lephalale",
-    "Centurion",
-    "Secunda",
-    "East London",
-    "Durban",
-  ],
+  // No `keywords`: Google ignores meta keywords for ranking, it adds document
+  // bytes, and exposes targeting to competitors. Local service+location
+  // targeting lives in page titles/H1s/content (see /[location]).
   openGraph: {
     type: "website",
     locale: "en_ZA",
@@ -106,10 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <JsonLd data={jsonLd} />
       </head>
       <body className="min-h-screen flex flex-col font-sans">
         <Header />

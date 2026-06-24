@@ -6,6 +6,7 @@ import SectionHeader from "@/components/ui/SectionHeader";
 import { Phone, Mail, Printer } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact Us",
   description:
     "Get in touch with Bonram (Pty) Ltd. Phone: +27 74 274 8684 | Email: info@bonram.co.za | Head Office: Lephalale, Limpopo.",
