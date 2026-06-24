@@ -5,6 +5,10 @@ import { ArrowRight, MapPin, Phone, CheckCircle, ShieldCheck } from "lucide-reac
 import { offices, getOfficeBySlug } from "@/lib/data/offices";
 import { services } from "@/lib/data/services";
 import SectionHeader from "@/components/ui/SectionHeader";
+import FAQ from "@/components/ui/FAQ";
+import JsonLd from "@/components/seo/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
+import { locationFaqs } from "@/lib/data/faqs";
 
 // Only the known office locations are valid; anything else 404s.
 export const dynamicParams = false;
@@ -85,6 +89,12 @@ export default async function LocationPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: "https://www.bonram.co.za/" },
+          { name: city, url: `https://www.bonram.co.za/${office.slug}` },
+        ])}
       />
 
       {/* Hero */}
@@ -173,6 +183,9 @@ export default async function LocationPage({
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
+      <FAQ items={locationFaqs(office)} heading={`Bonram in ${city} — FAQs`} />
 
       {/* CTA */}
       <section className="py-16 bg-navy">

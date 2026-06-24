@@ -16,22 +16,25 @@ const serviceRoutes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const lastModified = new Date();
   return [
-    { url: base, changeFrequency: "monthly", priority: 1.0 },
-    { url: `${base}/about`, changeFrequency: "yearly", priority: 0.8 },
-    { url: `${base}/services`, changeFrequency: "monthly", priority: 0.9 },
+    { url: base, lastModified, changeFrequency: "monthly", priority: 1.0 },
+    { url: `${base}/about`, lastModified, changeFrequency: "yearly", priority: 0.8 },
+    { url: `${base}/services`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     ...serviceRoutes.map((s) => ({
       url: `${base}/services/${s}`,
+      lastModified,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
     ...offices.map((o) => ({
       url: `${base}/${o.slug}`,
+      lastModified,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
-    { url: `${base}/clients`, changeFrequency: "yearly", priority: 0.7 },
-    { url: `${base}/accreditations`, changeFrequency: "yearly", priority: 0.7 },
-    { url: `${base}/contact`, changeFrequency: "yearly", priority: 0.9 },
+    { url: `${base}/clients`, lastModified, changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/accreditations`, lastModified, changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/contact`, lastModified, changeFrequency: "yearly", priority: 0.9 },
   ];
 }

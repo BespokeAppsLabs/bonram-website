@@ -5,6 +5,9 @@ import TrustPillars from "@/components/home/TrustPillars";
 import ClientLogoStrip from "@/components/home/ClientLogoStrip";
 import BBBEECallout from "@/components/home/BBBEECallout";
 import HomeCTA from "@/components/home/HomeCTA";
+import Testimonials from "@/components/ui/Testimonials";
+import FAQ from "@/components/ui/FAQ";
+import { generalFaqs } from "@/lib/data/faqs";
 
 export const metadata: Metadata = {
   title: "Bonram (Pty) Ltd | BBBEE Level 1 Multi-Service B2B Company",
@@ -20,6 +23,8 @@ export default function HomePage() {
       <TrustPillars />
       <ClientLogoStrip />
       <BBBEECallout />
+      <Testimonials />
+      <FAQ items={generalFaqs} heading="Bonram — Frequently Asked Questions" />
       <HomeCTA />
     </>
   );
