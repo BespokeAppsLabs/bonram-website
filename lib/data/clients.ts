@@ -4,6 +4,7 @@ export const clients: Client[] = [
   {
     name: "Eskom",
     slug: "eskom",
+    logoPath: "/logo/partner_logo/Eskom.png",
     domain: "eskom.co.za",
     sectors: ["energy"],
     projects: [
@@ -17,6 +18,7 @@ export const clients: Client[] = [
   {
     name: "Eskom Rotek Industries",
     slug: "eskom-rotek",
+    logoPath: "/logo/partner_logo/rotek.jpeg",
     domain: "eskom.co.za",
     sectors: ["energy"],
     projects: ["Plant hire and facilities services"],
@@ -24,6 +26,7 @@ export const clients: Client[] = [
   {
     name: "Enel Green Power",
     slug: "enel-green-power",
+    logoPath: "/logo/partner_logo/enel.jpeg",
     domain: "enelgreenpower.com",
     sectors: ["energy"],
     projects: ["Construction of steel carports at a solar energy facility"],
@@ -31,6 +34,7 @@ export const clients: Client[] = [
   {
     name: "EXXARO",
     slug: "exxaro",
+    logoPath: "/logo/partner_logo/exxaro.png",
     domain: "exxaro.com",
     sectors: ["mining"],
     projects: ["Facilities management and safety solutions"],
@@ -38,6 +42,7 @@ export const clients: Client[] = [
   {
     name: "ArcelorMittal South Africa",
     slug: "arcelormittal",
+    logoPath: "/logo/partner_logo/arcelormittal.png",
     domain: "arcelormittal.com",
     sectors: ["mining", "corporate"],
     projects: ["Safety solutions supply and facilities management"],
@@ -51,12 +56,14 @@ export const clients: Client[] = [
   {
     name: "Agricultural Research Council",
     slug: "agricultural-research-council",
+    logoPath: "/logo/partner_logo/agri_research_council.png",
     sectors: ["government", "ngo"],
     projects: ["Facilities management services"],
   },
   {
     name: "Lephalale Municipality",
     slug: "lephalale-municipality",
+    logoPath: "/logo/partner_logo/Lephalale_municipal.jpeg",
     sectors: ["government"],
     projects: ["Sanitation and community transport services"],
   },
@@ -105,6 +112,7 @@ export const clients: Client[] = [
   {
     name: "South African Police Service",
     slug: "saps",
+    logoPath: "/logo/partner_logo/SAPS.png",
     sectors: ["government"],
     projects: ["Facilities management and safety solutions"],
   },
@@ -117,12 +125,14 @@ export const clients: Client[] = [
   {
     name: "Ankole Communications JV",
     slug: "ankole-communications",
+    logoPath: "/logo/partner_logo/ankole_comms.jpeg",
     sectors: ["corporate"],
     projects: ["Logistics services on behalf of Transnet"],
   },
   {
     name: "TWF Corporate",
     slug: "twf-corporate",
+    logoPath: "/logo/partner_logo/TWF_corp.png",
     sectors: ["corporate"],
     projects: ["Facilities and corporate services"],
   },
@@ -165,6 +175,7 @@ export const clients: Client[] = [
   {
     name: "Limpopo Legislature",
     slug: "limpopo-legislature",
+    logoPath: "/logo/partner_logo/limpopo_legislature.png",
     sectors: ["government"],
     projects: ["Facilities management and transport services"],
   },

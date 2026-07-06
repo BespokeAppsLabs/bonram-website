@@ -3,6 +3,7 @@ import { clients } from "@/lib/data/clients";
 import SectionHeader from "@/components/ui/SectionHeader";
 import HomeCTA from "@/components/home/HomeCTA";
 import Badge from "@/components/ui/Badge";
+import ClientLogo from "@/components/home/ClientLogo";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/clients" },
@@ -51,7 +52,12 @@ export default function ClientsPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {sectorClients.map((client) => (
                     <div key={client.slug} className="bg-mist rounded-lg border border-border p-5 hover:border-gold/50 hover:shadow-sm transition-all">
-                      <p className="font-semibold text-navy mb-2">{client.name}</p>
+                      <div className="flex items-center gap-3 mb-2">
+                        <div className="flex h-12 w-16 flex-shrink-0 items-center justify-center rounded bg-white border border-border">
+                          <ClientLogo name={client.name} logo={client.logoPath} />
+                        </div>
+                        <p className="font-semibold text-navy">{client.name}</p>
+                      </div>
                       {client.projects && client.projects.length > 0 && (
                         <ul className="space-y-1">
                           {client.projects.slice(0, 2).map((p) => (
