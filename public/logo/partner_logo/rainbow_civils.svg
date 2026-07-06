@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img" aria-labelledby="title desc">
-  <title>Rainbow Civils</title>
-  <desc>Custom local wordmark used for the Rainbow Civils client entry.</desc>
+  <title id="title">Rainbow Civils</title>
+  <desc id="desc">Custom local wordmark used for the Rainbow Civils client entry.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#eff6ff"/>

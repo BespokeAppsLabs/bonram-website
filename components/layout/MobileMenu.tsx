@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
@@ -16,12 +16,20 @@ const navLinks = [
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);
 
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [open]);
+
   return (
     <div className="md:hidden">
       <button
         onClick={() => setOpen(!open)}
         aria-label={open ? "Close menu" : "Open menu"}
         aria-expanded={open}
+        aria-controls="mobile-menu-drawer"
         className="p-2 text-white hover:text-gold transition-colors"
       >
         {open ? <X size={24} /> : <Menu size={24} />}
@@ -38,6 +46,7 @@ export default function MobileMenu() {
 
       {/* Left slide-in drawer */}
       <div
+        id="mobile-menu-drawer"
         inert={!open}
         className={`fixed inset-y-0 left-0 z-50 w-72 max-w-[80vw] bg-navy-dark border-r border-white/10 shadow-2xl transition-transform duration-300 ease-out ${
           open ? "translate-x-0" : "-translate-x-full"
