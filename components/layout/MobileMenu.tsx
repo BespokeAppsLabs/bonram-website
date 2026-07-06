@@ -38,6 +38,7 @@ export default function MobileMenu() {
 
       {/* Left slide-in drawer */}
       <div
+        inert={!open}
         className={`fixed inset-y-0 left-0 z-50 w-72 max-w-[80vw] bg-navy-dark border-r border-white/10 shadow-2xl transition-transform duration-300 ease-out ${
           open ? "translate-x-0" : "-translate-x-full"
         }`}

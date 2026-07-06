@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img" aria-labelledby="title desc">
+  <title>Rainbow Civils</title>
+  <desc>Custom local wordmark used for the Rainbow Civils client entry.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" rx="28" fill="url(#bg)"/>
+  <rect x="14" y="14" width="372" height="172" rx="22" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <circle cx="78" cy="100" r="42" fill="#1d4ed8" opacity="0.12"/>
+  <circle cx="78" cy="100" r="34" fill="#1d4ed8"/>
+  <path d="M48 130 L108 70" stroke="#ec4899" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+  <path d="M52 84 Q78 58 104 84" stroke="#ffffff" stroke-width="6" fill="none" opacity="0.9"/>
+  <text x="78" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">RC</text>
+  <text x="142" y="92" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#1d4ed8">Rainbow</text>
+  <text x="142" y="126" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600" fill="#475569">Civils</text>
+  <rect x="142" y="142" width="112" height="8" rx="4" fill="#ec4899" opacity="0.85"/>
+</svg>
