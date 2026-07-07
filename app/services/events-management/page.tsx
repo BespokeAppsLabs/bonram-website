@@ -4,6 +4,7 @@ import { getServiceBySlug } from "@/lib/data/services";
 import { accreditations } from "@/lib/data/accreditations";
 import ServiceHero from "@/components/services/ServiceHero";
 import ServiceCTA from "@/components/services/ServiceCTA";
+import ServiceFAQ from "@/components/services/ServiceFAQ";
 import SectionHeader from "@/components/ui/SectionHeader";
 import AccreditationCard from "@/components/accreditations/AccreditationCard";
 import { CheckCircle } from "lucide-react";
@@ -11,6 +12,7 @@ import { CheckCircle } from "lucide-react";
 const slug = "events-management";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/services/events-management" },
   title: "Events Management",
   description: "End-to-end government and corporate event planning, logistics, equipment, transport, and on-site execution across South Africa.",
 };
@@ -58,6 +60,7 @@ export default function EventsManagementPage() {
           </div>
         </div>
       </section>
+      <ServiceFAQ service={service} />
       <ServiceCTA serviceName={service.name} />
     </>
   );

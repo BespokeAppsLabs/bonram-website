@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import type { Service } from "@/lib/types";
+import JsonLd from "@/components/seo/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 
 interface ServiceHeroProps {
   service: Service;
@@ -9,6 +11,13 @@ interface ServiceHeroProps {
 export default function ServiceHero({ service }: ServiceHeroProps) {
   return (
     <section className="relative h-72 lg:h-96 overflow-hidden">
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", url: "https://www.bonram.co.za/" },
+          { name: "Services", url: "https://www.bonram.co.za/services" },
+          { name: service.name, url: `https://www.bonram.co.za/services/${service.slug}` },
+        ])}
+      />
       <div className="absolute inset-0 bg-gradient-to-br from-navy-dark via-navy to-navy-light" />
       <div className="absolute inset-0 hero-mesh opacity-60" />
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-10">

@@ -1,20 +1,10 @@
 import SectionHeader from "@/components/ui/SectionHeader";
+import { clients } from "@/lib/data/clients";
 import ClientLogo from "./ClientLogo";
 
-const featured = [
-  { name: "Eskom", logo: "/logo/partner_logo/Eskom.png" },
-  { name: "EXXARO", logo: "/logo/partner_logo/exxaro.png" },
-  { name: "Enel Green Power", logo: "/logo/partner_logo/enel.jpeg" },
-  { name: "ArcelorMittal SA", logo: "/logo/partner_logo/arcelormittal.png" },
-  { name: "Eskom Rotek Industries", logo: "/logo/partner_logo/rotek.jpeg" },
-  { name: "Ledjadja Coal", logo: undefined },
-  { name: "Agricultural Research Council", logo: "/logo/partner_logo/agri_research_council.png" },
-  { name: "Lephalale Municipality", logo: "/logo/partner_logo/Lephalale_municipal.jpeg" },
-  { name: "SAPS", logo: "/logo/partner_logo/SAPS.png" },
-  { name: "Limpopo Legislature", logo: "/logo/partner_logo/limpopo_legislature.png" },
-  { name: "TWF Corporate", logo: "/logo/partner_logo/TWF_corp.png" },
-  { name: "Ankole Communications JV", logo: "/logo/partner_logo/ankole_comms.jpeg" },
-];
+// Single source of truth: show every client that has a real logo asset.
+const featured = clients.filter((c) => c.logoPath !== undefined);
+const remaining = clients.length - featured.length;
 
 export default function ClientLogoStrip() {
   return (
@@ -35,7 +25,7 @@ export default function ClientLogoStrip() {
               className="flex-shrink-0 flex flex-col items-center justify-between gap-3 w-40 h-28 bg-mist rounded-xl border border-border px-4 py-4 shadow-sm hover:border-gold/40 hover:shadow-md transition-all duration-200"
             >
               <div className="flex items-center justify-center flex-1 w-full">
-                <ClientLogo name={client.name} logo={client.logo} />
+                <ClientLogo name={client.name} logo={client.logoPath} />
               </div>
               <span className="text-[10px] font-semibold text-slate text-center leading-tight line-clamp-2 w-full">
                 {client.name}
@@ -45,9 +35,11 @@ export default function ClientLogoStrip() {
         </div>
       </div>
 
-      <p className="text-center mt-8 text-slate text-sm px-4">
-        + 14 more clients across government, energy, mining, and corporate sectors.
-      </p>
+      {remaining > 0 && (
+        <p className="text-center mt-8 text-slate text-sm px-4">
+          + {remaining} more clients across government, energy, mining, and corporate sectors.
+        </p>
+      )}
     </section>
   );
 }

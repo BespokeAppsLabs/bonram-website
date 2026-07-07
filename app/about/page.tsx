@@ -8,6 +8,7 @@ import HomeCTA from "@/components/home/HomeCTA";
 import { CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/about" },
   title: "About Bonram",
   description:
     "Learn about Bonram (Pty) Ltd — a BBBEE Level 1 South African B2B services company founded in 2013, headquartered in Lephalale, Limpopo, with 5 national offices and 6 service divisions.",

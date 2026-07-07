@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { offices } from "@/lib/data/offices";
 
 const base = "https://www.bonram.co.za";
 
@@ -11,21 +12,32 @@ const serviceRoutes = [
   "equipment-hire",
   "events-management",
   "security-services",
-  "plant-tool-hire",
 ];
+
+// Fixed content-release date — bump when page content actually changes.
+// (Do NOT use `new Date()`: a timestamp that churns every build is treated
+// as a fake freshness signal and ignored by search engines.)
+const lastModified = new Date("2026-06-24");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
-    { url: base, changeFrequency: "monthly", priority: 1.0 },
-    { url: `${base}/about`, changeFrequency: "yearly", priority: 0.8 },
-    { url: `${base}/services`, changeFrequency: "monthly", priority: 0.9 },
+    { url: base, lastModified, changeFrequency: "monthly", priority: 1.0 },
+    { url: `${base}/about`, lastModified, changeFrequency: "yearly", priority: 0.8 },
+    { url: `${base}/services`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     ...serviceRoutes.map((s) => ({
       url: `${base}/services/${s}`,
+      lastModified,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     })),
-    { url: `${base}/clients`, changeFrequency: "yearly", priority: 0.7 },
-    { url: `${base}/accreditations`, changeFrequency: "yearly", priority: 0.7 },
-    { url: `${base}/contact`, changeFrequency: "yearly", priority: 0.9 },
+    ...offices.map((o) => ({
+      url: `${base}/${o.slug}`,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    { url: `${base}/clients`, lastModified, changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/accreditations`, lastModified, changeFrequency: "yearly", priority: 0.7 },
+    { url: `${base}/contact`, lastModified, changeFrequency: "yearly", priority: 0.9 },
   ];
 }

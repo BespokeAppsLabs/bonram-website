@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import { services } from "@/lib/data/services";
+import JsonLd from "@/components/seo/JsonLd";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -18,16 +20,9 @@ export const metadata: Metadata = {
   },
   description:
     "Bonram is a BBBEE Level 1 South African B2B services company delivering building & construction, facilities management, logistics, sanitation, safety solutions, and plant hire across 5 national offices.",
-  keywords: [
-    "BBBEE Level 1 South Africa",
-    "B2B services Limpopo",
-    "facilities management South Africa",
-    "plant hire",
-    "construction civil engineering",
-    "logistics transport dangerous goods",
-    "sanitation mobile toilets",
-    "government contractor South Africa",
-  ],
+  // No `keywords`: Google ignores meta keywords for ranking, it adds document
+  // bytes, and exposes targeting to competitors. Local service+location
+  // targeting lives in page titles/H1s/content (see /[location]).
   openGraph: {
     type: "website",
     locale: "en_ZA",
@@ -40,10 +35,15 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "LocalBusiness",
+  "@id": "https://www.bonram.co.za/#organization",
   name: "Bonram (Pty) Ltd",
+  description:
+    "BBBEE Level 1 multi-service B2B company delivering building & construction, facilities management, logistics, sanitation, safety solutions, equipment hire, events management, and security services across South Africa.",
   url: "https://www.bonram.co.za",
   logo: "https://www.bonram.co.za/logo/bonram-logo.png",
+  telephone: "+27-74-274-8684",
+  email: "info@bonram.co.za",
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+27-74-274-8684",
@@ -59,6 +59,31 @@ const jsonLd = {
     postalCode: "0557",
     addressCountry: "ZA",
   },
+  areaServed: [
+    { "@type": "AdministrativeArea", name: "Limpopo" },
+    { "@type": "AdministrativeArea", name: "Gauteng" },
+    { "@type": "AdministrativeArea", name: "Mpumalanga" },
+    { "@type": "AdministrativeArea", name: "Eastern Cape" },
+    { "@type": "AdministrativeArea", name: "KwaZulu-Natal" },
+    { "@type": "Country", name: "South Africa" },
+  ],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Bonram Services",
+    itemListElement: services.map((s, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: s.name,
+          description: s.shortDescription,
+          url: `https://www.bonram.co.za/services/${s.slug}`,
+        },
+      },
+    })),
+  },
   sameAs: ["https://www.bonram.co.za"],
 };
 
@@ -66,10 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <JsonLd data={jsonLd} />
       </head>
       <body className="min-h-screen flex flex-col font-sans">
         <Header />
