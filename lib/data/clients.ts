@@ -50,7 +50,7 @@ export const clients: Client[] = [
   {
     name: "Ledjadja Coal",
     slug: "ledjadja-coal",
-    logoPath: "/logo/partner_logo/ledjadja_coal.svg",
+    logoPath: "/logo/partner_logo/ledjadja_coal.jpg",
     sectors: ["mining"],
     projects: ["Logistics, transport, and facilities management at Boikarabelo"],
   },
@@ -127,7 +127,6 @@ export const clients: Client[] = [
   {
     name: "Ga-Seleka Tribal Authority",
     slug: "ga-seleka",
-    logoPath: "/logo/partner_logo/ga_seleka_tribal_authority.svg",
     sectors: ["government"],
     projects: ["Community transport and logistics"],
   },
@@ -148,14 +147,13 @@ export const clients: Client[] = [
   {
     name: "Rainbow Civils",
     slug: "rainbow-civils",
-    logoPath: "/logo/partner_logo/rainbow_civils.svg",
+    logoPath: "/logo/partner_logo/rainbow_civils.jpg",
     sectors: ["corporate"],
     projects: ["Plant hire and construction support"],
   },
   {
     name: "Botle Ba Africa Roads",
     slug: "botle-ba-africa",
-    logoPath: "/logo/partner_logo/botle_ba_africa_roads.svg",
     sectors: ["corporate"],
     projects: ["Plant hire and road construction support"],
   },
@@ -183,7 +181,7 @@ export const clients: Client[] = [
   {
     name: "Imbanita Consulting",
     slug: "imbanita-consulting",
-    logoPath: "/logo/partner_logo/imbanita_consulting.svg",
+    logoPath: "/logo/partner_logo/imbanita_consulting.jpg",
     sectors: ["corporate"],
     projects: ["Consulting and project support services"],
   },
