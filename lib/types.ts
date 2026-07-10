@@ -24,6 +24,7 @@ export interface Accreditation {
   slug: string;
   name: string;
   regNo?: string;
+  logoPath?: string;
   description: string;
   relevantServices: string[];
 }

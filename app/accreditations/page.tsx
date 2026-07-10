@@ -68,7 +68,7 @@ export default function AccreditationsPage() {
               <p className="text-slate text-sm mt-1">Includes registration documents, accreditation certificates, and project portfolio.</p>
             </div>
             <a
-              href="/documents/bonram-company-profile-2025.pdf"
+              href="/documents/bonram-company-profile.pdf"
               download
               className="inline-flex items-center gap-2 bg-navy text-white font-semibold px-6 py-3 rounded hover:bg-navy-dark transition-colors whitespace-nowrap"
             >

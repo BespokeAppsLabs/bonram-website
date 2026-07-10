@@ -3,6 +3,7 @@ import type { Accreditation } from "@/lib/types";
 export const accreditations: Accreditation[] = [
   {
     slug: "nhbrc",
+    logoPath: "/images/accreditations/nhbrc.png",
     name: "NHBRC",
     regNo: "4000004592",
     description:
@@ -11,6 +12,7 @@ export const accreditations: Accreditation[] = [
   },
   {
     slug: "cidb",
+    logoPath: "/images/accreditations/cidb.png",
     name: "CIDB",
     regNo: "CSR 10014817 | GBPE1 · MEPE1 · CE1",
     description:
@@ -19,6 +21,7 @@ export const accreditations: Accreditation[] = [
   },
   {
     slug: "psira",
+    logoPath: "/images/accreditations/psira.png",
     name: "PSIRA",
     regNo: "4845472",
     description:
@@ -27,6 +30,7 @@ export const accreditations: Accreditation[] = [
   },
   {
     slug: "qcto",
+    logoPath: "/images/accreditations/qcto.webp",
     name: "QCTO",
     regNo: "Verification Client",
     description:
@@ -35,6 +39,7 @@ export const accreditations: Accreditation[] = [
   },
   {
     slug: "beeca",
+    logoPath: "/images/accreditations/beeca.png",
     name: "BEECA Cleaning Association",
     regNo: undefined,
     description:
@@ -43,6 +48,7 @@ export const accreditations: Accreditation[] = [
   },
   {
     slug: "saiosh",
+    logoPath: "/images/accreditations/saiosh.jpeg",
     name: "SAIOSH",
     regNo: undefined,
     description:
@@ -51,6 +57,7 @@ export const accreditations: Accreditation[] = [
   },
   {
     slug: "sars-customs",
+    logoPath: "/images/accreditations/sars.jpg",
     name: "SARS Imports & Exports",
     regNo: undefined,
     description:
@@ -59,6 +66,7 @@ export const accreditations: Accreditation[] = [
   },
   {
     slug: "averda",
+    logoPath: "/images/accreditations/averda.jpg",
     name: "AVERDA",
     regNo: undefined,
     description:
@@ -69,12 +77,14 @@ export const accreditations: Accreditation[] = [
     slug: "ledet",
     name: "LEDET",
     regNo: undefined,
+    logoPath: "/images/accreditations/ledet.png",
     description:
       "Limpopo Department of Economic Development, Environment and Tourism. Compliance confirms our environmental management practices meet provincial regulatory requirements for waste and sanitation.",
     relevantServices: ["sanitation-waste"],
   },
   {
     slug: "amps-africa",
+    logoPath: "/images/accreditations/amps.png",
     name: "AMPS-Africa",
     regNo: undefined,
     description:
@@ -83,6 +93,7 @@ export const accreditations: Accreditation[] = [
   },
   {
     slug: "vasa",
+    logoPath: "/images/accreditations/vasa.png",
     name: "VASA",
     regNo: undefined,
     description:
