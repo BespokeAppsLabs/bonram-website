@@ -35,8 +35,8 @@ export default function ContactPage() {
               <h2 className="text-2xl font-bold text-navy mb-6">Contact Information</h2>
 
               <div className="space-y-4 mb-8">
-                <a href="tel:+27742748684" className="flex items-center gap-4 p-4 rounded-lg border border-border hover:border-gold hover:bg-gold/5 transition-all group">
-                  <div className="w-10 h-10 rounded-lg bg-navy/10 flex items-center justify-center group-hover:bg-gold/20">
+                <a href="tel:+27742748684" className="flex items-center gap-4 p-4 rounded-xl border border-border hover:border-gold hover:bg-gold/5 transition-all group">
+                  <div className="w-10 h-10 rounded-xl bg-navy/10 flex items-center justify-center group-hover:bg-gold/20">
                     <Phone size={20} className="text-navy group-hover:text-gold transition-colors" />
                   </div>
                   <div>
@@ -45,8 +45,8 @@ export default function ContactPage() {
                   </div>
                 </a>
 
-                <a href="mailto:info@bonram.co.za" className="flex items-center gap-4 p-4 rounded-lg border border-border hover:border-gold hover:bg-gold/5 transition-all group">
-                  <div className="w-10 h-10 rounded-lg bg-navy/10 flex items-center justify-center group-hover:bg-gold/20">
+                <a href="mailto:info@bonram.co.za" className="flex items-center gap-4 p-4 rounded-xl border border-border hover:border-gold hover:bg-gold/5 transition-all group">
+                  <div className="w-10 h-10 rounded-xl bg-navy/10 flex items-center justify-center group-hover:bg-gold/20">
                     <Mail size={20} className="text-navy group-hover:text-gold transition-colors" />
                   </div>
                   <div>
@@ -55,8 +55,8 @@ export default function ContactPage() {
                   </div>
                 </a>
 
-                <div className="flex items-center gap-4 p-4 rounded-lg border border-border">
-                  <div className="w-10 h-10 rounded-lg bg-navy/10 flex items-center justify-center">
+                <div className="flex items-center gap-4 p-4 rounded-xl border border-border">
+                  <div className="w-10 h-10 rounded-xl bg-navy/10 flex items-center justify-center">
                     <Printer size={20} className="text-navy" />
                   </div>
                   <div>
@@ -66,7 +66,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="bg-mist rounded-lg border border-border p-5 mb-6">
+              <div className="bg-mist rounded-xl border border-border p-5 mb-6">
                 <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Procurement Details</p>
                 <div className="space-y-1 text-sm">
                   <p className="text-slate">CSD Supplier: <span className="font-mono font-semibold text-navy">MAAA0156166</span></p>

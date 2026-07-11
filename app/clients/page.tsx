@@ -51,7 +51,7 @@ export default function ClientsPage() {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                   {sectorClients.map((client) => (
-                    <div key={client.slug} className="bg-mist rounded-lg border border-border p-5 hover:border-gold/50 hover:shadow-sm transition-all">
+                    <div key={client.slug} className="bg-mist rounded-xl border border-border p-5 hover:border-gold/50 hover:shadow-sm transition-all">
                       <div className="flex items-center gap-3 mb-2">
                         {client.logoPath && (
                           <div className="flex h-12 w-16 flex-shrink-0 items-center justify-center rounded bg-white border border-border">

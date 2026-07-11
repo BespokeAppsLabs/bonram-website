@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { team } from "@/lib/data/team";
 import { offices } from "@/lib/data/offices";
 import ManagementCard from "@/components/about/ManagementCard";
@@ -26,8 +27,9 @@ export default function AboutPage() {
   return (
     <>
       <section className="relative h-64 lg:h-80 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-navy-dark via-navy to-navy-light" />
-        <div className="absolute inset-0 hero-mesh opacity-60" />
+        <Image src="/images/about/hero.jpg" alt="" fill priority className="object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-br from-navy-dark/90 via-navy/85 to-navy-light/80" />
+        <div className="absolute inset-0 hero-mesh opacity-40" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-10">
           <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">About Us</p>
           <h1 className="text-4xl lg:text-5xl font-bold text-white">Who We Are</h1>
@@ -52,19 +54,19 @@ export default function AboutPage() {
             </div>
 
             <div className="space-y-6">
-              <div className="bg-mist rounded-lg p-6 border border-border">
+              <div className="bg-mist rounded-xl p-6 border border-border">
                 <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Our Vision</p>
                 <p className="text-navy font-semibold text-lg leading-snug">
                   To be a leading B2B service provider delivering quality products and services at a reasonable price and convenient time.
                 </p>
               </div>
-              <div className="bg-mist rounded-lg p-6 border border-border">
+              <div className="bg-mist rounded-xl p-6 border border-border">
                 <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Our Mission</p>
                 <p className="text-navy font-semibold text-lg leading-snug">
                   To provide high quality products and services for the fulfilment of our clients&apos; needs.
                 </p>
               </div>
-              <div className="bg-mist rounded-lg p-6 border border-border">
+              <div className="bg-mist rounded-xl p-6 border border-border">
                 <p className="text-xs font-bold uppercase tracking-widest text-gold mb-3">Our Objectives</p>
                 <ul className="space-y-2">
                   {objectives.map((obj) => (
@@ -89,7 +91,7 @@ export default function AboutPage() {
               { value: "5", label: "National Offices" },
               { value: "11", label: "Accreditations" },
             ].map((stat) => (
-              <div key={stat.label} className="bg-white rounded-lg border border-border p-6">
+              <div key={stat.label} className="bg-white rounded-xl border border-border p-6">
                 <p className="text-3xl font-bold text-gold mb-1">{stat.value}</p>
                 <p className="text-slate text-sm">{stat.label}</p>
               </div>
@@ -128,7 +130,7 @@ export default function AboutPage() {
             ))}
           </div>
 
-          <div className="mt-10 bg-white rounded-lg border border-border p-6">
+          <div className="mt-10 bg-white rounded-xl border border-border p-6">
             <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Registration Details</p>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
               {[

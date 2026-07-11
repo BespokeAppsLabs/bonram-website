@@ -7,7 +7,7 @@ interface OfficeCardProps {
 
 export default function OfficeCard({ office }: OfficeCardProps) {
   return (
-    <div className={`rounded-lg p-6 border ${office.type === "head" ? "bg-navy text-white border-navy" : "bg-white text-charcoal border-border"}`}>
+    <div className={`rounded-xl p-6 border ${office.type === "head" ? "bg-navy text-white border-navy" : "bg-white text-charcoal border-border"}`}>
       <div className="flex items-start gap-3">
         <MapPin size={20} className={`mt-0.5 flex-shrink-0 ${office.type === "head" ? "text-gold" : "text-navy"}`} />
         <div>

@@ -8,7 +8,7 @@ interface ManagementCardProps {
 
 export default function ManagementCard({ member }: ManagementCardProps) {
   return (
-    <div className="bg-white rounded-lg border border-border overflow-hidden hover:shadow-md transition-shadow">
+    <div className="bg-white rounded-xl border border-border overflow-hidden hover:shadow-md transition-shadow">
       <div className="relative h-56 bg-mist flex items-center justify-center">
         {member.image ? (
           <Image

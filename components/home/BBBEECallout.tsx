@@ -14,7 +14,7 @@ export default function BBBEECallout() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row items-center gap-10">
           <div className="flex-shrink-0 text-center lg:text-left">
-            <div className="inline-flex items-center gap-3 bg-gold/10 border-2 border-gold rounded-lg px-6 py-4">
+            <div className="inline-flex items-center gap-3 bg-gold/10 border-2 border-gold rounded-xl px-6 py-4">
               <Award size={40} className="text-gold" />
               <div>
                 <p className="text-gold font-bold text-2xl">BBBEE Level 1</p>

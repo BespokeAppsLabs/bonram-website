@@ -35,7 +35,7 @@ export default function EquipmentHirePage() {
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
                 {["Events", "Sanitation", "Construction"].map((cat) => (
-                  <div key={cat} className="bg-mist rounded-lg border border-border px-4 py-3 text-center">
+                  <div key={cat} className="bg-mist rounded-xl border border-border px-4 py-3 text-center">
                     <p className="font-semibold text-navy text-sm">{cat}</p>
                     <p className="text-slate text-xs mt-0.5">Equipment Hire</p>
                   </div>
@@ -58,7 +58,7 @@ export default function EquipmentHirePage() {
                   <AccreditationCard key={acc.slug} accreditation={acc} />
                 ))}
               </div>
-              <div className="mt-6 bg-mist rounded-lg border border-border p-5">
+              <div className="mt-6 bg-mist rounded-xl border border-border p-5">
                 <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Key Clients</p>
                 <ul className="space-y-1">
                   {service.featuredClients.map((c) => (

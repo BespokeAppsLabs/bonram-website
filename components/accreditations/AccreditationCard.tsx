@@ -8,10 +8,10 @@ interface AccreditationCardProps {
 
 export default function AccreditationCard({ accreditation }: AccreditationCardProps) {
   return (
-    <div className="bg-white rounded-lg border border-border hover:border-gold hover:shadow-md transition-all p-6">
+    <div className="bg-white rounded-xl border border-border hover:border-gold hover:shadow-md transition-all p-6">
       <div className="flex items-start gap-4">
         <div
-          className={`w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 overflow-hidden ${
+          className={`w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden ${
             accreditation.logoPath !== undefined ? "bg-white border border-border" : "bg-gold/10"
           }`}
         >

@@ -48,7 +48,7 @@ export default function BuildingConstructionPage() {
                   <AccreditationCard key={acc.slug} accreditation={acc} />
                 ))}
               </div>
-              <div className="mt-6 bg-mist rounded-lg border border-border p-5">
+              <div className="mt-6 bg-mist rounded-xl border border-border p-5">
                 <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Key Clients</p>
                 <ul className="space-y-1">
                   {service.featuredClients.map((c) => (

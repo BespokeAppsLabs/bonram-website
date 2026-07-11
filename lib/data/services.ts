@@ -20,7 +20,7 @@ export const services: Service[] = [
     accreditations: ["nhbrc", "cidb", "saiosh"],
     featuredClients: ["Eskom", "Enel Green Power", "Lephalale Municipality"],
     image: "/images/services/building-construction",
-    imageExt: ".png",
+    imageExt: ".jpg",
   },
   {
     slug: "facilities-management",
@@ -41,7 +41,7 @@ export const services: Service[] = [
     accreditations: ["beeca", "averda", "saiosh"],
     featuredClients: ["Eskom", "Ledjadja Coal", "Agricultural Research Council"],
     image: "/images/services/facilities-management",
-    imageExt: ".png",
+    imageExt: ".jpg",
   },
   {
     slug: "logistics-transport",
@@ -83,7 +83,7 @@ export const services: Service[] = [
     accreditations: ["averda", "ledet"],
     featuredClients: ["Eskom Rotek Industries", "Lephalale Municipality", "SAPS"],
     image: "/images/services/sanitation-waste",
-    imageExt: ".png",
+    imageExt: ".jpg",
   },
   {
     slug: "safety-solutions",
@@ -105,7 +105,7 @@ export const services: Service[] = [
     accreditations: ["saiosh", "psira"],
     featuredClients: ["ArcelorMittal SA", "EXXARO", "Eskom"],
     image: "/images/services/safety-solutions",
-    imageExt: ".png",
+    imageExt: ".jpg",
   },
   {
     slug: "equipment-hire",
@@ -127,7 +127,7 @@ export const services: Service[] = [
     icon: "Wrench",
     accreditations: ["cidb"],
     featuredClients: ["Eskom Rotek Industries", "Ledjadja Coal", "Limpopo Department of Sports Arts & Culture"],
-    image: "/images/services/plant-tool-hire",
+    image: "/images/services/equipment-hire",
     imageExt: ".jpg",
   },
   {
@@ -151,8 +151,8 @@ export const services: Service[] = [
     icon: "Calendar",
     accreditations: ["saiosh", "amps-africa"],
     featuredClients: ["Limpopo Department of Sports Arts & Culture", "Lephalale Municipality", "Ga-Seleka Tribal Authority"],
-    image: "/images/services/sanitation-waste",
-    imageExt: ".png",
+    image: "/images/services/events-management",
+    imageExt: ".jpg",
   },
   {
     slug: "security-services",
@@ -174,8 +174,8 @@ export const services: Service[] = [
     icon: "Lock",
     accreditations: ["psira", "saiosh"],
     featuredClients: ["SAPS", "Eskom", "ArcelorMittal SA"],
-    image: "/images/services/safety-solutions",
-    imageExt: ".png",
+    image: "/images/services/security-services",
+    imageExt: ".jpg",
   },
 ];
 

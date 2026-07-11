@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import type { Service } from "@/lib/types";
@@ -18,8 +19,17 @@ export default function ServiceHero({ service }: ServiceHeroProps) {
           { name: service.name, url: `https://www.bonram.co.za/services/${service.slug}` },
         ])}
       />
-      <div className="absolute inset-0 bg-gradient-to-br from-navy-dark via-navy to-navy-light" />
-      <div className="absolute inset-0 hero-mesh opacity-60" />
+      {service.image && (
+        <Image
+          src={`${service.image}${service.imageExt}`}
+          alt=""
+          fill
+          priority
+          className="object-cover"
+        />
+      )}
+      <div className="absolute inset-0 bg-gradient-to-br from-navy-dark/90 via-navy/85 to-navy-light/80" />
+      <div className="absolute inset-0 hero-mesh opacity-40" />
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-10">
         <nav className="flex items-center gap-1.5 text-white/60 text-sm mb-3">
           <Link href="/" className="hover:text-white transition-colors">Home</Link>

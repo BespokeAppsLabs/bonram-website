@@ -137,7 +137,7 @@ export default async function LocationPage({
               <Link
                 key={s.slug}
                 href={`/services/${s.slug}`}
-                className="group block border border-border rounded-lg p-6 hover:border-gold hover:shadow-md transition-all"
+                className="group block border border-border rounded-xl p-6 hover:border-gold hover:shadow-md transition-all"
               >
                 <h3 className="text-lg font-bold text-navy mb-2 group-hover:text-gold transition-colors">
                   {s.name} in {city}
@@ -169,7 +169,7 @@ export default async function LocationPage({
             ))}
           </ul>
 
-          <div className="mt-12 bg-white border border-border rounded-lg p-6 flex items-start gap-4">
+          <div className="mt-12 bg-white border border-border rounded-xl p-6 flex items-start gap-4">
             <MapPin size={22} className="text-gold flex-shrink-0 mt-1" />
             <div>
               <p className="font-semibold text-navy">{office.name}</p>

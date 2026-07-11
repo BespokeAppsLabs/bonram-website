@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { services } from "@/lib/data/services";
 import ServiceCard from "@/components/home/ServiceCard";
 import SectionHeader from "@/components/ui/SectionHeader";
@@ -15,8 +16,9 @@ export default function ServicesPage() {
   return (
     <>
       <section className="relative h-64 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-navy-dark via-navy to-navy-light" />
-        <div className="absolute inset-0 hero-mesh opacity-60" />
+        <Image src="/images/services/hero.jpg" alt="" fill priority className="object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-br from-navy-dark/90 via-navy/85 to-navy-light/80" />
+        <div className="absolute inset-0 hero-mesh opacity-40" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-end pb-10">
           <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">What We Do</p>
           <h1 className="text-4xl lg:text-5xl font-bold text-white">Our Services</h1>

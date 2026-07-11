@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, HardHat, Sparkles, Truck, Droplets, ShieldCheck, Wrench, Calendar, Lock } from "lucide-react";
 import type { Service } from "@/lib/types";
@@ -48,16 +49,24 @@ export default function ServiceCard({ service }: ServiceCardProps) {
     <Link
       ref={cardRef}
       href={`/services/${service.slug}`}
-      className="group flex flex-col bg-white rounded-lg border border-border hover:border-gold hover:shadow-xl overflow-hidden"
+      className="group flex flex-col bg-white rounded-xl border border-border hover:border-gold hover:shadow-lg overflow-hidden"
       style={{
-        transition: "transform 0.35s ease, box-shadow 0.2s ease, border-color 0.2s ease",
+        transition: "transform 0.35s ease, box-shadow 0.3s ease, border-color 0.3s ease",
         willChange: "transform",
       }}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
+      <div className="relative w-full aspect-[4/3] bg-mist">
+        <Image
+          src={`/images/services/cards/${service.slug}.jpg`}
+          alt=""
+          fill
+          className="object-cover"
+        />
+      </div>
       <div className="p-8 flex-1">
-        <div className="w-12 h-12 rounded-lg bg-navy/10 flex items-center justify-center mb-5 group-hover:bg-gold/10 transition-colors">
+        <div className="w-12 h-12 rounded-xl bg-navy/10 flex items-center justify-center mb-5 group-hover:bg-gold/10 transition-colors">
           <Icon size={24} className="text-navy group-hover:text-gold transition-colors" />
         </div>
         <h3 className="text-xl font-semibold text-navy mb-3">{service.name}</h3>
