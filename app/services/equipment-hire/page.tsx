@@ -7,6 +7,7 @@ import ServiceCTA from "@/components/services/ServiceCTA";
 import ServiceFAQ from "@/components/services/ServiceFAQ";
 import SectionHeader from "@/components/ui/SectionHeader";
 import AccreditationCard from "@/components/accreditations/AccreditationCard";
+import KeyClients from "@/components/services/KeyClients";
 import { CheckCircle } from "lucide-react";
 
 const slug = "equipment-hire";
@@ -58,14 +59,7 @@ export default function EquipmentHirePage() {
                   <AccreditationCard key={acc.slug} accreditation={acc} />
                 ))}
               </div>
-              <div className="mt-6 bg-mist rounded-xl border border-border p-5">
-                <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Key Clients</p>
-                <ul className="space-y-1">
-                  {service.featuredClients.map((c) => (
-                    <li key={c} className="text-sm text-slate">{c}</li>
-                  ))}
-                </ul>
-              </div>
+              <KeyClients names={service.featuredClients} />
             </div>
           </div>
         </div>
