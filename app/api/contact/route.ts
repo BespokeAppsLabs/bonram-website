@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
   try {
@@ -9,8 +12,12 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    const emailBody = `
-New enquiry from Bonram website
+    const { error } = await resend.emails.send({
+      from: "Bonram Website <info@bonram.co.za>",
+      to: "info@bonram.co.za",
+      replyTo: email,
+      subject: `Website Enquiry from ${name}`,
+      text: `New enquiry from Bonram website
 
 Name: ${name}
 Company: ${company || "Not provided"}
@@ -22,14 +29,13 @@ Message:
 ${message}
 
 ---
-Sent from bonram.co.za contact form
-    `.trim();
+Sent from bonram.co.za contact form`,
+    });
 
-    const mailtoLink = `mailto:info@bonram.co.za?subject=Website Enquiry from ${name}&body=${encodeURIComponent(emailBody)}`;
-
-    console.log("Contact form submission:", { name, company, email, service });
-    console.log("Email content:", emailBody);
-    console.log("Mailto link:", mailtoLink);
+    if (error) {
+      console.error("Resend error:", error);
+      return NextResponse.json({ error: "Failed to send email" }, { status: 502 });
+    }
 
     return NextResponse.json({ success: true });
   } catch {
