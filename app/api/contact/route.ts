@@ -35,7 +35,7 @@ function enquiryEmailHtml({
             <td style="background:linear-gradient(150deg,#142338 0%,#1e3a5f 60%,#24466f 100%); padding:28px 32px;">
               <div style="width:60px; height:4px; background:#d4af37; border-radius:2px; margin-bottom:14px;"></div>
               <div style="color:#ffffff; font-size:1.3rem; font-weight:700;">Website Enquiry</div>
-              <div style="color:#d4af37; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.06em; margin-top:2px;">Bonram (Pty) Ltd</div>
+              <div style="color:#ffffff; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.06em; margin-top:2px;">Bonram (Pty) Ltd</div>
             </td>
           </tr>
           <tr>
